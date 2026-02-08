@@ -1,0 +1,1051 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-01-22T13:35:23.807Z",
+  "count": 18,
+  "topics": [
+    {
+      "id": "prerequisites",
+      "order": 0,
+      "title": "00 - Prerequisites",
+      "slug": "prerequisites",
+      "fileName": "00-Prerequisites",
+      "description": "Foundation before diving into DSA",
+      "timeEstimate": "1 week",
+      "prerequisites": [],
+
+      "sections": [
+        {
+          "id": "programming-fundamentals",
+          "title": "Programming Fundamentals",
+          "position": 368
+        },
+        {
+          "id": "language-specific-essentials",
+          "title": "Language-Specific Essentials",
+          "position": 1228
+        },
+        {
+          "id": "mathematics-for-dsa",
+          "title": "Mathematics for DSA",
+          "position": 1832
+        },
+        {
+          "id": "complexity-analysis-big-o",
+          "title": "Complexity Analysis (Big O)",
+          "position": 2355
+        },
+        {
+          "id": "problem-solving-approach",
+          "title": "Problem Solving Approach",
+          "position": 2902
+        },
+        {
+          "id": "interview-preparation-mindset",
+          "title": "Interview Preparation Mindset",
+          "position": 3378
+        },
+        {
+          "id": "essential-patterns-overview",
+          "title": "Essential Patterns Overview",
+          "position": 4457
+        },
+        {
+          "id": "interview-roi-analysis-algomonster-data",
+          "title": "Interview ROI Analysis (AlgoMonster Data)",
+          "position": 6360
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "arrays-strings",
+      "order": 1,
+      "title": "01 - Arrays & Strings",
+      "slug": "arrays-strings",
+      "fileName": "01-Arrays-Strings",
+      "description": "The most fundamental data structures",
+      "timeEstimate": "2-3 weeks",
+      "prerequisites": [
+        "prerequisites"
+      ],
+      "sections": [
+        {
+          "id": "arrays",
+          "title": "Arrays",
+          "position": 427
+        },
+        {
+          "id": "strings",
+          "title": "Strings",
+          "position": 2556
+        },
+        {
+          "id": "hashing-with-arrays-strings",
+          "title": "Hashing (with Arrays & Strings)",
+          "position": 4129
+        },
+        {
+          "id": "practice-problems",
+          "title": "Practice Problems",
+          "position": 7041
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "recursion-backtracking",
+      "order": 3,
+      "title": "03 - Recursion & Backtracking",
+      "slug": "recursion-backtracking",
+      "fileName": "02-Recursion-Backtracking",
+      "description": "The art of solving problems by breaking them into smaller subproblems",
+      "timeEstimate": "2-3 weeks",
+      "prerequisites": [
+        "prerequisites"
+      ],
+      "sections": [
+        {
+          "id": "recursion",
+          "title": "Recursion",
+          "position": 400
+        },
+        {
+          "id": "backtracking",
+          "title": "Backtracking",
+          "position": 1963
+        },
+        {
+          "id": "divide-and-conquer",
+          "title": "Divide and Conquer",
+          "position": 3379
+        },
+        {
+          "id": "recursion-optimization",
+          "title": "Recursion Optimization",
+          "position": 3835
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "sorting-searching",
+      "order": 4,
+      "title": "04 - Sorting & Searching",
+      "slug": "sorting-searching",
+      "fileName": "03-Sorting-Searching",
+      "description": "Essential algorithms for organizing and finding data",
+      "timeEstimate": "2 weeks",
+      "prerequisites": [
+        "arrays-strings"
+      ],
+      "sections": [
+        {
+          "id": "sorting-algorithms",
+          "title": "Sorting Algorithms",
+          "position": 396
+        },
+        {
+          "id": "searching-algorithms",
+          "title": "Searching Algorithms",
+          "position": 3995
+        },
+        {
+          "id": "two-pointers-searching-technique",
+          "title": "Two Pointers (Searching Technique)",
+          "position": 5824
+        },
+        {
+          "id": "ternary-search",
+          "title": "Ternary Search",
+          "position": 6226
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "linked-lists",
+      "order": 6,
+      "title": "06 - Linked Lists",
+      "slug": "linked-lists",
+      "fileName": "04-Linked-Lists",
+      "description": "Dynamic data structure with non-contiguous memory allocation",
+      "timeEstimate": "1-2 weeks",
+      "prerequisites": [
+        "arrays-strings"
+      ],
+      "sections": [
+        {
+          "id": "singly-linked-list",
+          "title": "Singly Linked List",
+          "position": 329
+        },
+        {
+          "id": "doubly-linked-list",
+          "title": "Doubly Linked List",
+          "position": 1193
+        },
+        {
+          "id": "circular-linked-list",
+          "title": "Circular Linked List",
+          "position": 1690
+        },
+        {
+          "id": "fast-slow-pointer-tortoise-hare",
+          "title": "Fast & Slow Pointer (Tortoise & Hare)",
+          "position": 1949
+        },
+        {
+          "id": "linked-list-problems-by-category",
+          "title": "Linked List Problems by Category",
+          "position": 2330
+        },
+        {
+          "id": "linked-list-techniques",
+          "title": "Linked List Techniques",
+          "position": 3710
+        },
+        {
+          "id": "comparison-table",
+          "title": "Comparison Table",
+          "position": 4056
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "stacks-queues",
+      "order": 5,
+      "title": "05 - Stacks & Queues",
+      "slug": "stacks-queues",
+      "fileName": "05-Stacks-Queues",
+      "description": "Linear data structures with restricted access patterns",
+      "timeEstimate": "1-2 weeks",
+      "prerequisites": [
+        "arrays-strings"
+      ],
+      "sections": [
+        {
+          "id": "stack",
+          "title": "Stack",
+          "position": 415
+        },
+        {
+          "id": "stack-problems-by-category",
+          "title": "Stack Problems by Category",
+          "position": 1068
+        },
+        {
+          "id": "queue",
+          "title": "Queue",
+          "position": 2590
+        },
+        {
+          "id": "types-of-queues",
+          "title": "Types of Queues",
+          "position": 3222
+        },
+        {
+          "id": "queue-problems-by-category",
+          "title": "Queue Problems by Category",
+          "position": 3828
+        },
+        {
+          "id": "monotonic-deque",
+          "title": "Monotonic Deque",
+          "position": 4696
+        },
+        {
+          "id": "comparison-table",
+          "title": "Comparison Table",
+          "position": 5007
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "trees",
+      "order": 7,
+      "title": "07 - Trees",
+      "slug": "trees",
+      "fileName": "06-Trees",
+      "description": "Hierarchical data structure for organized data representation",
+      "timeEstimate": "2-3 weeks",
+      "prerequisites": [
+        "recursion-backtracking"
+      ],
+      "sections": [
+        {
+          "id": "tree-basics",
+          "title": "Tree Basics",
+          "position": 393
+        },
+        {
+          "id": "binary-tree",
+          "title": "Binary Tree",
+          "position": 1079
+        },
+        {
+          "id": "tree-traversals",
+          "title": "Tree Traversals",
+          "position": 1769
+        },
+        {
+          "id": "binary-tree-properties",
+          "title": "Binary Tree Properties",
+          "position": 2736
+        },
+        {
+          "id": "binary-tree-problems-by-category",
+          "title": "Binary Tree Problems by Category",
+          "position": 3188
+        },
+        {
+          "id": "n-ary-tree",
+          "title": "N-ary Tree",
+          "position": 4569
+        },
+        {
+          "id": "tree-traversal-summary",
+          "title": "Tree Traversal Summary",
+          "position": 5006
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "binary-search-trees",
+      "order": 8,
+      "title": "08 - Binary Search Trees (BST)",
+      "slug": "binary-search-trees",
+      "fileName": "07-Binary-Search-Trees",
+      "description": "Ordered binary tree for efficient searching and sorting",
+      "timeEstimate": "1-2 weeks",
+      "prerequisites": [
+        "trees"
+      ],
+      "sections": [
+        {
+          "id": "bst-basics",
+          "title": "BST Basics",
+          "position": 314
+        },
+        {
+          "id": "bst-operations",
+          "title": "BST Operations",
+          "position": 912
+        },
+        {
+          "id": "bst-traversal",
+          "title": "BST Traversal",
+          "position": 1653
+        },
+        {
+          "id": "bst-problems-by-category",
+          "title": "BST Problems by Category",
+          "position": 1945
+        },
+        {
+          "id": "self-balancing-bsts-concept",
+          "title": "Self-Balancing BSTs (Concept)",
+          "position": 3307
+        },
+        {
+          "id": "bst-applications",
+          "title": "BST Applications",
+          "position": 4187
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "heaps-priority-queues",
+      "order": 9,
+      "title": "09 - Heaps & Priority Queues",
+      "slug": "heaps-priority-queues",
+      "fileName": "08-Heaps-Priority-Queues",
+      "description": "Efficient data structure for finding min/max elements",
+      "timeEstimate": "1-2 weeks",
+      "prerequisites": [
+        "trees"
+      ],
+      "sections": [
+        {
+          "id": "heap-basics",
+          "title": "Heap Basics",
+          "position": 346
+        },
+        {
+          "id": "heap-operations",
+          "title": "Heap Operations",
+          "position": 919
+        },
+        {
+          "id": "heap-implementation",
+          "title": "Heap Implementation",
+          "position": 1595
+        },
+        {
+          "id": "priority-queue",
+          "title": "Priority Queue",
+          "position": 2084
+        },
+        {
+          "id": "heap-sort",
+          "title": "Heap Sort",
+          "position": 2614
+        },
+        {
+          "id": "heap-problems-by-category",
+          "title": "Heap Problems by Category",
+          "position": 2861
+        },
+        {
+          "id": "two-heap-pattern-grokking-pattern-9",
+          "title": "Two Heap Pattern (Grokking Pattern #9)",
+          "position": 4420
+        },
+        {
+          "id": "top-k-pattern",
+          "title": "Top K Pattern",
+          "position": 5214
+        },
+        {
+          "id": "comparison-table",
+          "title": "Comparison Table",
+          "position": 5592
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "hashing",
+      "order": 2,
+      "title": "02 - Hashing",
+      "slug": "hashing",
+      "fileName": "09-Hashing",
+      "description": "O(1) average time for insert, delete, and search",
+      "timeEstimate": "1-2 weeks",
+      "prerequisites": [
+        "arrays-strings"
+      ],
+      "sections": [
+        {
+          "id": "hashing-basics",
+          "title": "Hashing Basics",
+          "position": 380
+        },
+        {
+          "id": "hash-table-hash-map",
+          "title": "Hash Table / Hash Map",
+          "position": 876
+        },
+        {
+          "id": "hash-set",
+          "title": "Hash Set",
+          "position": 1752
+        },
+        {
+          "id": "language-implementations",
+          "title": "Language Implementations",
+          "position": 2020
+        },
+        {
+          "id": "hashing-patterns",
+          "title": "Hashing Patterns",
+          "position": 3056
+        },
+        {
+          "id": "hashing-problems-by-category",
+          "title": "Hashing Problems by Category",
+          "position": 3642
+        },
+        {
+          "id": "string-hashing-rolling-hash",
+          "title": "String Hashing (Rolling Hash)",
+          "position": 5076
+        },
+        {
+          "id": "advanced-hashing",
+          "title": "Advanced Hashing",
+          "position": 5547
+        },
+        {
+          "id": "comparison-table",
+          "title": "Comparison Table",
+          "position": 5856
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "graphs",
+      "order": 10,
+      "title": "10 - Graphs",
+      "slug": "graphs",
+      "fileName": "10-Graphs",
+      "description": "Non-linear data structure for representing relationships",
+      "timeEstimate": "3-4 weeks",
+      "prerequisites": [
+        "recursion-backtracking"
+      ],
+      "sections": [
+        {
+          "id": "graph-basics",
+          "title": "Graph Basics",
+          "position": 507
+        },
+        {
+          "id": "graph-representation",
+          "title": "Graph Representation",
+          "position": 1298
+        },
+        {
+          "id": "graph-traversals",
+          "title": "Graph Traversals",
+          "position": 2043
+        },
+        {
+          "id": "graph-problems-by-category",
+          "title": "Graph Problems by Category",
+          "position": 3405
+        },
+        {
+          "id": "shortest-path-algorithms",
+          "title": "Shortest Path Algorithms",
+          "position": 5171
+        },
+        {
+          "id": "minimum-spanning-tree-mst",
+          "title": "Minimum Spanning Tree (MST)",
+          "position": 6750
+        },
+        {
+          "id": "advanced-graph-topics",
+          "title": "Advanced Graph Topics",
+          "position": 7393
+        },
+        {
+          "id": "grid-as-graph",
+          "title": "Grid as Graph",
+          "position": 7989
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "dynamic-programming",
+      "order": 11,
+      "title": "11 - Dynamic Programming",
+      "slug": "dynamic-programming",
+      "fileName": "11-Dynamic-Programming",
+      "description": "Optimization technique using memoization and tabulation",
+      "timeEstimate": "4-6 weeks",
+      "prerequisites": [
+        "recursion-backtracking"
+      ],
+      "sections": [
+        {
+          "id": "dp-basics",
+          "title": "DP Basics",
+          "position": 573
+        },
+        {
+          "id": "dp-approaches",
+          "title": "DP Approaches",
+          "position": 1387
+        },
+        {
+          "id": "dp-problem-solving-framework",
+          "title": "DP Problem-Solving Framework",
+          "position": 2097
+        },
+        {
+          "id": "1d-dp-problems",
+          "title": "1D DP Problems",
+          "position": 2620
+        },
+        {
+          "id": "2d-dp-problems",
+          "title": "2D DP Problems",
+          "position": 3289
+        },
+        {
+          "id": "classic-dp-patterns",
+          "title": "Classic DP Patterns",
+          "position": 3953
+        },
+        {
+          "id": "dp-on-strings",
+          "title": "DP on Strings",
+          "position": 6008
+        },
+        {
+          "id": "dp-on-trees",
+          "title": "DP on Trees",
+          "position": 6291
+        },
+        {
+          "id": "state-machine-dp",
+          "title": "State Machine DP",
+          "position": 6606
+        },
+        {
+          "id": "bitmask-dp",
+          "title": "Bitmask DP",
+          "position": 7015
+        },
+        {
+          "id": "digit-dp",
+          "title": "Digit DP",
+          "position": 7376
+        },
+        {
+          "id": "dp-pattern-recognition",
+          "title": "DP Pattern Recognition",
+          "position": 7649
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "greedy-algorithms",
+      "order": 12,
+      "title": "12 - Greedy Algorithms",
+      "slug": "greedy-algorithms",
+      "fileName": "12-Greedy-Algorithms",
+      "description": "Make locally optimal choices hoping for global optimum",
+      "timeEstimate": "1-2 weeks",
+      "prerequisites": [
+        "sorting-searching"
+      ],
+      "sections": [
+        {
+          "id": "greedy-basics",
+          "title": "Greedy Basics",
+          "position": 413
+        },
+        {
+          "id": "greedy-proof-techniques",
+          "title": "Greedy Proof Techniques",
+          "position": 1151
+        },
+        {
+          "id": "classic-greedy-problems",
+          "title": "Classic Greedy Problems",
+          "position": 1507
+        },
+        {
+          "id": "greedy-problems-by-category",
+          "title": "Greedy Problems by Category",
+          "position": 2163
+        },
+        {
+          "id": "greedy-patterns",
+          "title": "Greedy Patterns",
+          "position": 3214
+        },
+        {
+          "id": "common-greedy-techniques",
+          "title": "Common Greedy Techniques",
+          "position": 3826
+        },
+        {
+          "id": "greedy-on-graphs",
+          "title": "Greedy on Graphs",
+          "position": 4325
+        },
+        {
+          "id": "advanced-greedy",
+          "title": "Advanced Greedy",
+          "position": 4744
+        },
+        {
+          "id": "problems-collection",
+          "title": "Problems Collection",
+          "position": 5098
+        },
+        {
+          "id": "essential-leetcode-problems",
+          "title": "Essential LeetCode Problems",
+          "position": 8164
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "tries",
+      "order": 13,
+      "title": "13 - Tries (Prefix Trees)",
+      "slug": "tries",
+      "fileName": "13-Tries",
+      "description": "Efficient data structure for string operations",
+      "timeEstimate": "1 week",
+      "prerequisites": [
+        "trees"
+      ],
+      "sections": [
+        {
+          "id": "trie-basics",
+          "title": "Trie Basics",
+          "position": 359
+        },
+        {
+          "id": "trie-structure",
+          "title": "Trie Structure",
+          "position": 1080
+        },
+        {
+          "id": "trie-operations",
+          "title": "Trie Operations",
+          "position": 1625
+        },
+        {
+          "id": "complete-trie-features",
+          "title": "Complete Trie Features",
+          "position": 2520
+        },
+        {
+          "id": "trie-problems-by-category",
+          "title": "Trie Problems by Category",
+          "position": 3109
+        },
+        {
+          "id": "trie-variations",
+          "title": "Trie Variations",
+          "position": 3869
+        },
+        {
+          "id": "trie-applications",
+          "title": "Trie Applications",
+          "position": 4637
+        },
+        {
+          "id": "common-patterns",
+          "title": "Common Patterns",
+          "position": 5212
+        },
+        {
+          "id": "essential-leetcode-problems",
+          "title": "Essential LeetCode Problems",
+          "position": 7700
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "advanced-data-structures",
+      "order": 14,
+      "title": "14 - Advanced Data Structures",
+      "slug": "advanced-data-structures",
+      "fileName": "14-Advanced-Data-Structures",
+      "description": "Specialized structures for complex operations",
+      "timeEstimate": "2-3 weeks",
+      "prerequisites": [
+        "dynamic-programming"
+      ],
+      "sections": [
+        {
+          "id": "segment-tree",
+          "title": "Segment Tree",
+          "position": 407
+        },
+        {
+          "id": "fenwick-tree-binary-indexed-tree",
+          "title": "Fenwick Tree (Binary Indexed Tree)",
+          "position": 1636
+        },
+        {
+          "id": "union-find-disjoint-set-union",
+          "title": "Union-Find (Disjoint Set Union)",
+          "position": 2848
+        },
+        {
+          "id": "sparse-table",
+          "title": "Sparse Table",
+          "position": 3950
+        },
+        {
+          "id": "skip-list",
+          "title": "Skip List",
+          "position": 4558
+        },
+        {
+          "id": "lru-cache",
+          "title": "LRU Cache",
+          "position": 5134
+        },
+        {
+          "id": "monotonic-stackdeque-review",
+          "title": "Monotonic Stack/Deque (Review)",
+          "position": 5870
+        },
+        {
+          "id": "ordered-set-multiset",
+          "title": "Ordered Set / Multiset",
+          "position": 6128
+        },
+        {
+          "id": "bloom-filter",
+          "title": "Bloom Filter",
+          "position": 6419
+        },
+        {
+          "id": "other-advanced-structures",
+          "title": "Other Advanced Structures",
+          "position": 6669
+        },
+        {
+          "id": "essential-leetcode-problems",
+          "title": "Essential LeetCode Problems",
+          "position": 9200
+        },
+        {
+          "id": "comparison-table",
+          "title": "Comparison Table",
+          "position": 11685
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "bit-manipulation",
+      "order": 16,
+      "title": "16 - Bit Manipulation",
+      "slug": "bit-manipulation",
+      "fileName": "15-Bit-Manipulation",
+      "description": "Efficient operations using binary representation",
+      "timeEstimate": "1-2 weeks",
+      "prerequisites": [
+        "math-number-theory"
+      ],
+      "sections": [
+        {
+          "id": "binary-basics",
+          "title": "Binary Basics",
+          "position": 489
+        },
+        {
+          "id": "bitwise-operators",
+          "title": "Bitwise Operators",
+          "position": 1095
+        },
+        {
+          "id": "common-bit-tricks",
+          "title": "Common Bit Tricks",
+          "position": 1953
+        },
+        {
+          "id": "xor-properties",
+          "title": "XOR Properties",
+          "position": 2968
+        },
+        {
+          "id": "bit-manipulation-problems",
+          "title": "Bit Manipulation Problems",
+          "position": 3330
+        },
+        {
+          "id": "bit-manipulation-patterns",
+          "title": "Bit Manipulation Patterns",
+          "position": 4508
+        },
+        {
+          "id": "twos-complement",
+          "title": "Two's Complement",
+          "position": 4961
+        },
+        {
+          "id": "common-formulas",
+          "title": "Common Formulas",
+          "position": 5299
+        },
+        {
+          "id": "language-specific",
+          "title": "Language-Specific",
+          "position": 5932
+        },
+        {
+          "id": "essential-leetcode-problems",
+          "title": "Essential LeetCode Problems",
+          "position": 8944
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "math-number-theory",
+      "order": 15,
+      "title": "15 - Math & Number Theory",
+      "slug": "math-number-theory",
+      "fileName": "16-Math-Number-Theory",
+      "description": "Essential mathematical concepts for DSA",
+      "timeEstimate": "1-2 weeks",
+      "prerequisites": [
+        "prerequisites"
+      ],
+      "sections": [
+        {
+          "id": "basic-math",
+          "title": "Basic Math",
+          "position": 408
+        },
+        {
+          "id": "gcd-and-lcm",
+          "title": "GCD and LCM",
+          "position": 1128
+        },
+        {
+          "id": "prime-numbers",
+          "title": "Prime Numbers",
+          "position": 1691
+        },
+        {
+          "id": "combinatorics",
+          "title": "Combinatorics",
+          "position": 2270
+        },
+        {
+          "id": "modular-inverse",
+          "title": "Modular Inverse",
+          "position": 3079
+        },
+        {
+          "id": "number-theory-problems",
+          "title": "Number Theory Problems",
+          "position": 3472
+        },
+        {
+          "id": "geometry-basics",
+          "title": "Geometry Basics",
+          "position": 4071
+        },
+        {
+          "id": "matrix-math",
+          "title": "Matrix Math",
+          "position": 4716
+        },
+        {
+          "id": "probability-basics",
+          "title": "Probability Basics",
+          "position": 5124
+        },
+        {
+          "id": "common-math-tricks",
+          "title": "Common Math Tricks",
+          "position": 5509
+        },
+        {
+          "id": "important-constants",
+          "title": "Important Constants",
+          "position": 6129
+        },
+        {
+          "id": "essential-leetcode-problems",
+          "title": "Essential LeetCode Problems",
+          "position": 9011
+        }
+      ],
+      "hasDiagram": true
+    },
+    {
+      "id": "roadmap-summary",
+      "order": 17,
+      "title": "17 - DSA Roadmap Summary",
+      "slug": "roadmap-summary",
+      "fileName": "17-Roadmap-Summary",
+      "description": "Complete index and study plan for mastering DSA",
+      "timeEstimate": null,
+      "prerequisites": [
+        "prerequisites"
+      ],
+      "sections": [
+        {
+          "id": "-complete-topic-index",
+          "title": "📚 Complete Topic Index",
+          "position": 214
+        },
+        {
+          "id": "-learning-path",
+          "title": "🗺️ Learning Path",
+          "position": 1893
+        },
+        {
+          "id": "-topic-dependency-graph",
+          "title": "📊 Topic Dependency Graph",
+          "position": 4165
+        },
+        {
+          "id": "-grokking-the-coding-interview-patterns-33-patterns",
+          "title": "🎯 Grokking the Coding Interview Patterns (33 Patterns)",
+          "position": 5358
+        },
+        {
+          "id": "-problem-solving-targets",
+          "title": "🎯 Problem-Solving Targets",
+          "position": 10330
+        },
+        {
+          "id": "-interview-preparation-checklist",
+          "title": "🏆 Interview Preparation Checklist",
+          "position": 10877
+        },
+        {
+          "id": "-company-specific-interview-tips-algomonster-2025-data",
+          "title": "🏢 Company-Specific Interview Tips (AlgoMonster 2025 Data)",
+          "position": 11587
+        },
+        {
+          "id": "-daily-practice-template",
+          "title": "📅 Daily Practice Template",
+          "position": 13030
+        },
+        {
+          "id": "-progress-tracker",
+          "title": "📝 Progress Tracker",
+          "position": 13429
+        },
+        {
+          "id": "-recommended-resources",
+          "title": "🔗 Recommended Resources",
+          "position": 14185
+        },
+        {
+          "id": "-tips-for-success",
+          "title": "💡 Tips for Success",
+          "position": 14817
+        },
+        {
+          "id": "-final-advice",
+          "title": "🎓 Final Advice",
+          "position": 15458
+        },
+        {
+          "id": "-complete-grokking-the-coding-interview-patterns-33-total",
+          "title": "📖 Complete Grokking the Coding Interview Patterns (33 Total)",
+          "position": 15846
+        },
+        {
+          "id": "-company-specific-insights-algomonsterigotanoffer-data",
+          "title": "🏢 Company-Specific Insights (AlgoMonster/IGotAnOffer Data)",
+          "position": 17325
+        },
+        {
+          "id": "-curated-problem-lists",
+          "title": "📚 Curated Problem Lists",
+          "position": 18285
+        },
+        {
+          "id": "-external-resources",
+          "title": "🔗 External Resources",
+          "position": 20288
+        },
+        {
+          "id": "quick-reference-time-complexities",
+          "title": "Quick Reference: Time Complexities",
+          "position": 21263
+        }
+      ],
+      "hasDiagram": true
+    }
+  ]
+}

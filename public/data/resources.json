@@ -1,0 +1,1382 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-01-22T13:35:23.807Z",
+  "count": 125,
+  "resources": [
+    {
+      "id": "neetcode-arrays-hashing-playlist",
+      "title": "NeetCode - Arrays & Hashing Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Comprehensive array problem walkthroughs",
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "neetcode-two-pointers-playlist",
+      "title": "NeetCode - Two Pointers Playlist",
+      "url": "https://www.youtube.com/@NeetCodeIO",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Two pointer pattern explanations",
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "striver-take-u-forward-arrays-series",
+      "title": "Striver (take U forward) - Arrays Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Complete array problems for interviews",
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "striver-sliding-window-two-pointer",
+      "title": "Striver - Sliding Window & Two Pointer",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Pattern-based approach",
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "abdul-bari-arrays-fundamentals",
+      "title": "Abdul Bari - Arrays Fundamentals",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Clear conceptual explanations",
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "freecodecamp-data-structures-full-cour",
+      "title": "freeCodeCamp - Data Structures Full Course",
+      "url": "https://www.youtube.com/@freecodecamp",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Beginner-friendly introduction",
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "two-pointers-pattern-tech-interview-ha",
+      "title": "Two Pointers Pattern - Tech Interview Handbook",
+      "url": "https://www.techinterviewhandbook.org/algorithms/array/",
+      "type": "article",
+      "platform": "tih",
+      "description": null,
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "sliding-window-technique-geeksforgeeks",
+      "title": "Sliding Window Technique - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/window-sliding-technique/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "prefix-sum-array-geeksforgeeks",
+      "title": "Prefix Sum Array - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "kadanes-algorithm-geeksforgeeks",
+      "title": "Kadane's Algorithm - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "arrays-in-python-programiz",
+      "title": "Arrays in Python - Programiz",
+      "url": "https://www.programiz.com/python-programming/array",
+      "type": "article",
+      "platform": "programiz",
+      "description": null,
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "arrays-in-javascript-programiz",
+      "title": "Arrays in JavaScript - Programiz",
+      "url": "https://www.programiz.com/javascript/array",
+      "type": "article",
+      "platform": "programiz",
+      "description": null,
+      "topicIds": [
+        "arrays-strings"
+      ]
+    },
+    {
+      "id": "neetcode-backtracking-playlist",
+      "title": "NeetCode - Backtracking Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Subsets, permutations, and combinations explained",
+      "topicIds": [
+        "recursion-backtracking"
+      ]
+    },
+    {
+      "id": "striver-take-u-forward-recursion-ser",
+      "title": "Striver (take U forward) - Recursion Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Complete recursion from basics to advanced",
+      "topicIds": [
+        "recursion-backtracking"
+      ]
+    },
+    {
+      "id": "striver-backtracking-problems",
+      "title": "Striver - Backtracking Problems",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "N-Queens, Sudoku Solver, and more",
+      "topicIds": [
+        "recursion-backtracking"
+      ]
+    },
+    {
+      "id": "abdul-bari-recursion-fundamentals",
+      "title": "Abdul Bari - Recursion Fundamentals",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Clear step-by-step recursion explanations",
+      "topicIds": [
+        "recursion-backtracking"
+      ]
+    },
+    {
+      "id": "freecodecamp-recursion-in-programming",
+      "title": "freeCodeCamp - Recursion in Programming",
+      "url": "https://www.youtube.com/@freecodecamp",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Full tutorial with examples",
+      "topicIds": [
+        "recursion-backtracking"
+      ]
+    },
+    {
+      "id": "recursion-geeksforgeeks",
+      "title": "Recursion - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "recursion-backtracking"
+      ]
+    },
+    {
+      "id": "backtracking-algorithm-geeksforgeeks",
+      "title": "Backtracking Algorithm - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/backtracking-algorithms/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "recursion-backtracking"
+      ]
+    },
+    {
+      "id": "subsets-combinations-tech-interview-",
+      "title": "Subsets & Combinations - Tech Interview Handbook",
+      "url": "https://www.techinterviewhandbook.org/algorithms/recursion/",
+      "type": "article",
+      "platform": "tih",
+      "description": null,
+      "topicIds": [
+        "recursion-backtracking"
+      ]
+    },
+    {
+      "id": "recursion-basics-programiz",
+      "title": "Recursion Basics - Programiz",
+      "url": "https://www.programiz.com/python-programming/recursion",
+      "type": "article",
+      "platform": "programiz",
+      "description": null,
+      "topicIds": [
+        "recursion-backtracking"
+      ]
+    },
+    {
+      "id": "n-queens-problem-geeksforgeeks",
+      "title": "N-Queens Problem - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "recursion-backtracking"
+      ]
+    },
+    {
+      "id": "generate-all-permutations-geeksforgeek",
+      "title": "Generate All Permutations - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "recursion-backtracking"
+      ]
+    },
+    {
+      "id": "neetcode-binary-search-playlist",
+      "title": "NeetCode - Binary Search Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "All binary search patterns and variations",
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "striver-take-u-forward-sorting-algor",
+      "title": "Striver (take U forward) - Sorting Algorithms",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Complete sorting tutorial",
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "striver-binary-search-series",
+      "title": "Striver - Binary Search Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Binary search on answers, 2D matrices",
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "abdul-bari-sorting-algorithms",
+      "title": "Abdul Bari - Sorting Algorithms",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Visual explanations of all sorting algorithms",
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "abdul-bari-binary-search",
+      "title": "Abdul Bari - Binary Search",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Clear binary search fundamentals",
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "freecodecamp-sorting-algorithms-explai",
+      "title": "freeCodeCamp - Sorting Algorithms Explained",
+      "url": "https://www.youtube.com/@freecodecamp",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Comprehensive sorting course",
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "sorting-algorithms-geeksforgeeks",
+      "title": "Sorting Algorithms - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/sorting-algorithms/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "binary-search-geeksforgeeks",
+      "title": "Binary Search - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/binary-search/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "binary-search-patterns-tech-interview-",
+      "title": "Binary Search Patterns - Tech Interview Handbook",
+      "url": "https://www.techinterviewhandbook.org/algorithms/binary-search/",
+      "type": "article",
+      "platform": "tih",
+      "description": null,
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "merge-sort-programiz",
+      "title": "Merge Sort - Programiz",
+      "url": "https://www.programiz.com/dsa/merge-sort",
+      "type": "article",
+      "platform": "programiz",
+      "description": null,
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "quick-sort-programiz",
+      "title": "Quick Sort - Programiz",
+      "url": "https://www.programiz.com/dsa/quick-sort",
+      "type": "article",
+      "platform": "programiz",
+      "description": null,
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "binary-search-variations-geeksforgeeks",
+      "title": "Binary Search Variations - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/variants-of-binary-search/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "sorting-searching"
+      ]
+    },
+    {
+      "id": "neetcode-linked-list-playlist",
+      "title": "NeetCode - Linked List Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "All essential linked list problems",
+      "topicIds": [
+        "linked-lists"
+      ]
+    },
+    {
+      "id": "striver-take-u-forward-linked-list-s",
+      "title": "Striver (take U forward) - Linked List Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Complete linked list for interviews",
+      "topicIds": [
+        "linked-lists"
+      ]
+    },
+    {
+      "id": "abdul-bari-linked-list-fundamentals",
+      "title": "Abdul Bari - Linked List Fundamentals",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Visual explanations of concepts",
+      "topicIds": [
+        "linked-lists"
+      ]
+    },
+    {
+      "id": "freecodecamp-linked-lists-tutorial",
+      "title": "freeCodeCamp - Linked Lists Tutorial",
+      "url": "https://www.youtube.com/@freecodecamp",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Beginner-friendly introduction",
+      "topicIds": [
+        "linked-lists"
+      ]
+    },
+    {
+      "id": "linked-list-geeksforgeeks",
+      "title": "Linked List - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/data-structures/linked-list/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "linked-lists"
+      ]
+    },
+    {
+      "id": "fast-and-slow-pointers-tech-interview-",
+      "title": "Fast and Slow Pointers - Tech Interview Handbook",
+      "url": "https://www.techinterviewhandbook.org/algorithms/linked-list/",
+      "type": "article",
+      "platform": "tih",
+      "description": null,
+      "topicIds": [
+        "linked-lists"
+      ]
+    },
+    {
+      "id": "reverse-a-linked-list-geeksforgeeks",
+      "title": "Reverse a Linked List - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/reverse-a-linked-list/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "linked-lists"
+      ]
+    },
+    {
+      "id": "detect-loop-in-linked-list-geeksforgee",
+      "title": "Detect Loop in Linked List - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "linked-lists"
+      ]
+    },
+    {
+      "id": "linked-list-basics-programiz",
+      "title": "Linked List Basics - Programiz",
+      "url": "https://www.programiz.com/dsa/linked-list",
+      "type": "article",
+      "platform": "programiz",
+      "description": null,
+      "topicIds": [
+        "linked-lists"
+      ]
+    },
+    {
+      "id": "floyds-cycle-detection-geeksforgeeks",
+      "title": "Floyd's Cycle Detection - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "linked-lists"
+      ]
+    },
+    {
+      "id": "neetcode-stack-playlist",
+      "title": "NeetCode - Stack Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Stack problems and monotonic stack patterns",
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "striver-take-u-forward-stack-queue",
+      "title": "Striver (take U forward) - Stack & Queue Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Complete stack/queue for interviews",
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "striver-monotonic-stack-problems",
+      "title": "Striver - Monotonic Stack Problems",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Next greater element, histogram problems",
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "abdul-bari-stack-fundamentals",
+      "title": "Abdul Bari - Stack Fundamentals",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Clear conceptual explanations",
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "freecodecamp-stacks-and-queues",
+      "title": "freeCodeCamp - Stacks and Queues",
+      "url": "https://www.youtube.com/@freecodecamp",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Data structures tutorial",
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "stack-data-structure-geeksforgeeks",
+      "title": "Stack Data Structure - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/stack-data-structure/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "queue-data-structure-geeksforgeeks",
+      "title": "Queue Data Structure - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/queue-data-structure/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "monotonic-stack-geeksforgeeks",
+      "title": "Monotonic Stack - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/introduction-to-monotonic-stack-data-structure-and-algorithm-tutorials/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "stack-tech-interview-handbook",
+      "title": "Stack - Tech Interview Handbook",
+      "url": "https://www.techinterviewhandbook.org/algorithms/stack/",
+      "type": "article",
+      "platform": "tih",
+      "description": null,
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "stack-basics-programiz",
+      "title": "Stack Basics - Programiz",
+      "url": "https://www.programiz.com/dsa/stack",
+      "type": "article",
+      "platform": "programiz",
+      "description": null,
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "queue-basics-programiz",
+      "title": "Queue Basics - Programiz",
+      "url": "https://www.programiz.com/dsa/queue",
+      "type": "article",
+      "platform": "programiz",
+      "description": null,
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "next-greater-element-geeksforgeeks",
+      "title": "Next Greater Element - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/next-greater-element/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "stacks-queues"
+      ]
+    },
+    {
+      "id": "neetcode-trees-playlist",
+      "title": "NeetCode - Trees Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "All tree problems with clear explanations",
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "striver-take-u-forward-binary-tree-s",
+      "title": "Striver (take U forward) - Binary Tree Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Complete tree problems for interviews",
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "striver-tree-traversals-inorder-preo",
+      "title": "Striver - Tree Traversals (Inorder, Preorder, Postorder)",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "All traversal techniques",
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "abdul-bari-tree-fundamentals",
+      "title": "Abdul Bari - Tree Fundamentals",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Visual tree concept explanations",
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "abdul-bari-tree-traversals",
+      "title": "Abdul Bari - Tree Traversals",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Step-by-step traversal walkthroughs",
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "freecodecamp-binary-tree-algorithms",
+      "title": "freeCodeCamp - Binary Tree Algorithms",
+      "url": "https://www.youtube.com/@freecodecamp",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Full course on trees",
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "binary-tree-geeksforgeeks",
+      "title": "Binary Tree - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/binary-tree-data-structure/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "tree-traversals-geeksforgeeks",
+      "title": "Tree Traversals - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "dfs-on-trees-tech-interview-handbook",
+      "title": "DFS on Trees - Tech Interview Handbook",
+      "url": "https://www.techinterviewhandbook.org/algorithms/tree/",
+      "type": "article",
+      "platform": "tih",
+      "description": null,
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "bfs-level-order-traversal-geeksforgeek",
+      "title": "BFS Level Order Traversal - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/level-order-tree-traversal/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "lowest-common-ancestor-geeksforgeeks",
+      "title": "Lowest Common Ancestor - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/",
+      "type": "article",
+      "platform": "gfg",
+      "description": null,
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "binary-tree-basics-programiz",
+      "title": "Binary Tree Basics - Programiz",
+      "url": "https://www.programiz.com/dsa/binary-tree",
+      "type": "article",
+      "platform": "programiz",
+      "description": null,
+      "topicIds": [
+        "trees"
+      ]
+    },
+    {
+      "id": "neetcode-binary-search-trees-playlist",
+      "title": "NeetCode - Binary Search Trees Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "BST operations and validation patterns",
+      "topicIds": [
+        "binary-search-trees"
+      ]
+    },
+    {
+      "id": "striver-bst-series",
+      "title": "Striver - BST Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Complete BST concepts and problems",
+      "topicIds": [
+        "binary-search-trees"
+      ]
+    },
+    {
+      "id": "abdul-bari-bst-concepts",
+      "title": "Abdul Bari - BST Concepts",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Clear explanations of BST fundamentals",
+      "topicIds": [
+        "binary-search-trees"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-binary-search-tree",
+      "title": "GeeksforGeeks - Binary Search Tree",
+      "url": "https://www.geeksforgeeks.org/binary-search-tree-data-structure/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "BST operations, validation, and in-order properties",
+      "topicIds": [
+        "binary-search-trees"
+      ]
+    },
+    {
+      "id": "tech-interview-handbook-trees",
+      "title": "Tech Interview Handbook - Trees",
+      "url": "https://www.techinterviewhandbook.org/algorithms/tree/",
+      "type": "article",
+      "platform": "tih",
+      "description": "Interview-focused BST patterns",
+      "topicIds": [
+        "binary-search-trees"
+      ]
+    },
+    {
+      "id": "neetcode-heappriority-queue-playlist",
+      "title": "NeetCode - Heap/Priority Queue Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Heap operations and Top K pattern problems",
+      "topicIds": [
+        "heaps-priority-queues"
+      ]
+    },
+    {
+      "id": "striver-heaps-series",
+      "title": "Striver - Heaps Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Two Heaps pattern and priority queue concepts",
+      "topicIds": [
+        "heaps-priority-queues"
+      ]
+    },
+    {
+      "id": "abdul-bari-heap-data-structure",
+      "title": "Abdul Bari - Heap Data Structure",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Heap fundamentals and heap sort",
+      "topicIds": [
+        "heaps-priority-queues"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-heap-data-structure",
+      "title": "GeeksforGeeks - Heap Data Structure",
+      "url": "https://www.geeksforgeeks.org/heap-data-structure/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "Heap operations, Two Heaps, and Top K patterns",
+      "topicIds": [
+        "heaps-priority-queues"
+      ]
+    },
+    {
+      "id": "tech-interview-handbook-heap",
+      "title": "Tech Interview Handbook - Heap",
+      "url": "https://www.techinterviewhandbook.org/algorithms/heap/",
+      "type": "article",
+      "platform": "tih",
+      "description": "Interview-focused heap problems and patterns",
+      "topicIds": [
+        "heaps-priority-queues"
+      ]
+    },
+    {
+      "id": "neetcode-hash-map-problems",
+      "title": "NeetCode - Hash Map Problems",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Hash table patterns and problem walkthroughs",
+      "topicIds": [
+        "hashing"
+      ]
+    },
+    {
+      "id": "striver-hashing-series",
+      "title": "Striver - Hashing Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Hash map patterns and techniques",
+      "topicIds": [
+        "hashing"
+      ]
+    },
+    {
+      "id": "abdul-bari-hashing-concepts",
+      "title": "Abdul Bari - Hashing Concepts",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Hash table internals and collision handling",
+      "topicIds": [
+        "hashing"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-hashing",
+      "title": "GeeksforGeeks - Hashing",
+      "url": "https://www.geeksforgeeks.org/hashing-data-structure/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "Hash table internals, hash functions, and collision resolution",
+      "topicIds": [
+        "hashing"
+      ]
+    },
+    {
+      "id": "tech-interview-handbook-hash-table",
+      "title": "Tech Interview Handbook - Hash Table",
+      "url": "https://www.techinterviewhandbook.org/algorithms/hash-table/",
+      "type": "article",
+      "platform": "tih",
+      "description": "Hash Map patterns and interview techniques",
+      "topicIds": [
+        "hashing"
+      ]
+    },
+    {
+      "id": "neetcode-graphs-playlist",
+      "title": "NeetCode - Graphs Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "BFS, DFS, Dijkstra, and Topological Sort explained",
+      "topicIds": [
+        "graphs"
+      ]
+    },
+    {
+      "id": "striver-graph-series",
+      "title": "Striver - Graph Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Complete graph algorithms including Union-Find",
+      "topicIds": [
+        "graphs"
+      ]
+    },
+    {
+      "id": "abdul-bari-graph-algorithms",
+      "title": "Abdul Bari - Graph Algorithms",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "In-depth BFS, DFS, Dijkstra, and MST explanations",
+      "topicIds": [
+        "graphs"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-graph-algorithms",
+      "title": "GeeksforGeeks - Graph Algorithms",
+      "url": "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "BFS/DFS, Dijkstra, Topological Sort, Union-Find",
+      "topicIds": [
+        "graphs"
+      ]
+    },
+    {
+      "id": "tech-interview-handbook-graph",
+      "title": "Tech Interview Handbook - Graph",
+      "url": "https://www.techinterviewhandbook.org/algorithms/graph/",
+      "type": "article",
+      "platform": "tih",
+      "description": "Graph traversal patterns and interview problems",
+      "topicIds": [
+        "graphs"
+      ]
+    },
+    {
+      "id": "neetcode-dynamic-programming-playlist",
+      "title": "NeetCode - Dynamic Programming Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "DP fundamentals, memoization vs tabulation, all DP patterns",
+      "topicIds": [
+        "dynamic-programming"
+      ]
+    },
+    {
+      "id": "striver-dp-series",
+      "title": "Striver - DP Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Complete DP patterns with optimal approaches",
+      "topicIds": [
+        "dynamic-programming"
+      ]
+    },
+    {
+      "id": "abdul-bari-dynamic-programming",
+      "title": "Abdul Bari - Dynamic Programming",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Classic DP problems explained step-by-step",
+      "topicIds": [
+        "dynamic-programming"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-dynamic-programming",
+      "title": "GeeksforGeeks - Dynamic Programming",
+      "url": "https://www.geeksforgeeks.org/dynamic-programming/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "DP fundamentals, memoization vs tabulation, classic patterns",
+      "topicIds": [
+        "dynamic-programming"
+      ]
+    },
+    {
+      "id": "tech-interview-handbook-dynamic-progra",
+      "title": "Tech Interview Handbook - Dynamic Programming",
+      "url": "https://www.techinterviewhandbook.org/algorithms/dynamic-programming/",
+      "type": "article",
+      "platform": "tih",
+      "description": "Interview-focused DP patterns and techniques",
+      "topicIds": [
+        "dynamic-programming"
+      ]
+    },
+    {
+      "id": "neetcode-greedy-algorithms-playlist",
+      "title": "NeetCode - Greedy Algorithms Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Greedy approach and interval problems",
+      "topicIds": [
+        "greedy-algorithms"
+      ]
+    },
+    {
+      "id": "striver-greedy-series",
+      "title": "Striver - Greedy Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Activity selection and greedy patterns",
+      "topicIds": [
+        "greedy-algorithms"
+      ]
+    },
+    {
+      "id": "abdul-bari-greedy-algorithms",
+      "title": "Abdul Bari - Greedy Algorithms",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Greedy fundamentals and classic problems",
+      "topicIds": [
+        "greedy-algorithms"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-greedy-algorithms",
+      "title": "GeeksforGeeks - Greedy Algorithms",
+      "url": "https://www.geeksforgeeks.org/greedy-algorithms/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "Greedy approach, interval problems, activity selection",
+      "topicIds": [
+        "greedy-algorithms"
+      ]
+    },
+    {
+      "id": "tech-interview-handbook-greedy",
+      "title": "Tech Interview Handbook - Greedy",
+      "url": "https://www.techinterviewhandbook.org/algorithms/sorting-searching/",
+      "type": "article",
+      "platform": "tih",
+      "description": "Greedy patterns and interview techniques",
+      "topicIds": [
+        "greedy-algorithms"
+      ]
+    },
+    {
+      "id": "neetcode-trie-playlist",
+      "title": "NeetCode - Trie Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Trie implementation & LeetCode problems",
+      "topicIds": [
+        "tries"
+      ]
+    },
+    {
+      "id": "striver-trie-series",
+      "title": "Striver - Trie Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Comprehensive trie concepts",
+      "topicIds": [
+        "tries"
+      ]
+    },
+    {
+      "id": "abdul-bari-trie-data-structure",
+      "title": "Abdul Bari - Trie Data Structure",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Clear visual explanations",
+      "topicIds": [
+        "tries"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-trie-data-structure",
+      "title": "GeeksforGeeks - Trie Data Structure",
+      "url": "https://www.geeksforgeeks.org/trie-insert-and-search/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "Implementation guide",
+      "topicIds": [
+        "tries"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-auto-complete-with-trie",
+      "title": "GeeksforGeeks - Auto-complete with Trie",
+      "url": "https://www.geeksforgeeks.org/auto-complete-feature-using-trie/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "Autocomplete tutorial",
+      "topicIds": [
+        "tries"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-word-search-using-trie",
+      "title": "GeeksforGeeks - Word Search using Trie",
+      "url": "https://www.geeksforgeeks.org/word-search-in-2d-board-using-trie/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "Word search patterns",
+      "topicIds": [
+        "tries"
+      ]
+    },
+    {
+      "id": "neetcode-advanced-data-structures",
+      "title": "NeetCode - Advanced Data Structures",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Union-Find & Segment Tree problems",
+      "topicIds": [
+        "advanced-data-structures"
+      ]
+    },
+    {
+      "id": "striver-disjoint-set-union-dsu",
+      "title": "Striver - Disjoint Set Union (DSU)",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Union-Find deep dive",
+      "topicIds": [
+        "advanced-data-structures"
+      ]
+    },
+    {
+      "id": "abdul-bari-segment-trees",
+      "title": "Abdul Bari - Segment Trees",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Visual segment tree explanation",
+      "topicIds": [
+        "advanced-data-structures"
+      ]
+    },
+    {
+      "id": "cp-algorithms-segment-tree",
+      "title": "CP-Algorithms - Segment Tree",
+      "url": "https://cp-algorithms.com/data_structures/segment_tree.html",
+      "type": "article",
+      "platform": "other",
+      "description": "Comprehensive guide with lazy propagation",
+      "topicIds": [
+        "advanced-data-structures"
+      ]
+    },
+    {
+      "id": "cp-algorithms-fenwick-tree-bit",
+      "title": "CP-Algorithms - Fenwick Tree (BIT)",
+      "url": "https://cp-algorithms.com/data_structures/fenwick.html",
+      "type": "article",
+      "platform": "other",
+      "description": "Binary Indexed Tree tutorial",
+      "topicIds": [
+        "advanced-data-structures"
+      ]
+    },
+    {
+      "id": "cp-algorithms-disjoint-set-union",
+      "title": "CP-Algorithms - Disjoint Set Union",
+      "url": "https://cp-algorithms.com/data_structures/disjoint_set_union.html",
+      "type": "article",
+      "platform": "other",
+      "description": "Union-Find with optimizations",
+      "topicIds": [
+        "advanced-data-structures"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-union-find-algorithm",
+      "title": "GeeksforGeeks - Union-Find Algorithm",
+      "url": "https://www.geeksforgeeks.org/union-find-algorithm-union-by-rank-and-path-compression/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "Implementation patterns",
+      "topicIds": [
+        "advanced-data-structures"
+      ]
+    },
+    {
+      "id": "neetcode-bit-manipulation-playlist",
+      "title": "NeetCode - Bit Manipulation Playlist",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "LeetCode bit problems explained",
+      "topicIds": [
+        "bit-manipulation"
+      ]
+    },
+    {
+      "id": "striver-bit-manipulation-series",
+      "title": "Striver - Bit Manipulation Series",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "XOR tricks & bitmask DP",
+      "topicIds": [
+        "bit-manipulation"
+      ]
+    },
+    {
+      "id": "abdul-bari-bitwise-operators",
+      "title": "Abdul Bari - Bitwise Operators",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "Fundamentals of bit operations",
+      "topicIds": [
+        "bit-manipulation"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-bit-manipulation",
+      "title": "GeeksforGeeks - Bit Manipulation",
+      "url": "https://www.geeksforgeeks.org/bits-manipulation-important-tactics/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "Essential bit tricks",
+      "topicIds": [
+        "bit-manipulation"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-bitmasking-dp",
+      "title": "GeeksforGeeks - Bitmasking & DP",
+      "url": "https://www.geeksforgeeks.org/bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "Bitmask DP tutorial",
+      "topicIds": [
+        "bit-manipulation"
+      ]
+    },
+    {
+      "id": "cp-algorithms-bit-manipulation",
+      "title": "CP-Algorithms - Bit Manipulation",
+      "url": "https://cp-algorithms.com/algebra/bit-manipulation.html",
+      "type": "article",
+      "platform": "other",
+      "description": "Advanced bit techniques",
+      "topicIds": [
+        "bit-manipulation"
+      ]
+    },
+    {
+      "id": "neetcode-math-number-theory",
+      "title": "NeetCode - Math & Number Theory",
+      "url": "https://www.youtube.com/@NeetCode",
+      "type": "video",
+      "platform": "youtube",
+      "description": "LeetCode math problems",
+      "topicIds": [
+        "math-number-theory"
+      ]
+    },
+    {
+      "id": "striver-mathematics-for-dsa",
+      "title": "Striver - Mathematics for DSA",
+      "url": "https://www.youtube.com/@takeUforward",
+      "type": "video",
+      "platform": "youtube",
+      "description": "GCD, primes, modular arithmetic",
+      "topicIds": [
+        "math-number-theory"
+      ]
+    },
+    {
+      "id": "abdul-bari-number-theory",
+      "title": "Abdul Bari - Number Theory",
+      "url": "https://www.youtube.com/@abdul_bari",
+      "type": "video",
+      "platform": "youtube",
+      "description": "GCD/LCM & prime algorithms",
+      "topicIds": [
+        "math-number-theory"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-number-theory",
+      "title": "GeeksforGeeks - Number Theory",
+      "url": "https://www.geeksforgeeks.org/number-theory-competitive-programming/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "Comprehensive math guide",
+      "topicIds": [
+        "math-number-theory"
+      ]
+    },
+    {
+      "id": "geeksforgeeks-sieve-of-eratosthenes",
+      "title": "GeeksforGeeks - Sieve of Eratosthenes",
+      "url": "https://www.geeksforgeeks.org/sieve-of-eratosthenes/",
+      "type": "article",
+      "platform": "gfg",
+      "description": "Prime number generation",
+      "topicIds": [
+        "math-number-theory"
+      ]
+    },
+    {
+      "id": "cp-algorithms-number-theory",
+      "title": "CP-Algorithms - Number Theory",
+      "url": "https://cp-algorithms.com/algebra/",
+      "type": "article",
+      "platform": "other",
+      "description": "GCD, modular inverse, Euler's function",
+      "topicIds": [
+        "math-number-theory"
+      ]
+    },
+    {
+      "id": "cp-algorithms-modular-arithmetic",
+      "title": "CP-Algorithms - Modular Arithmetic",
+      "url": "https://cp-algorithms.com/algebra/module-inverse.html",
+      "type": "article",
+      "platform": "other",
+      "description": "Modular inverse techniques",
+      "topicIds": [
+        "math-number-theory"
+      ]
+    }
+  ]
+}
