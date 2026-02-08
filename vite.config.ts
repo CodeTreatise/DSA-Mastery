@@ -2,8 +2,8 @@ import { defineConfig } from 'vite';
 import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
-  // Base path for GitHub Pages deployment
-  base: '/dsa-mastery/',
+  // Base path for GitHub Pages deployment (must match repo name case)
+  base: '/DSA-Mastery/',
   
   resolve: {
     alias: {
