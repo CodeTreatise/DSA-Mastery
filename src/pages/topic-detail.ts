@@ -181,7 +181,7 @@ export class TopicDetailPage extends Component<TopicDetailState> {
     const grouped: Record<string, Concept[]> = {};
     
     concepts.forEach((concept) => {
-      const sectionPrefix = concept.sectionNum.split('-')[0];
+      const sectionPrefix = concept.sectionNum?.split('-')[0] ?? 'Other';
       const sectionKey = `Section ${sectionPrefix}`;
       
       if (!grouped[sectionKey]) {
