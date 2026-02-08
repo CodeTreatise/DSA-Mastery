@@ -1,0 +1,378 @@
+// ============================================
+// Layout Utilities
+// ============================================
+
+@use './variables' as *;
+
+// Sidebar widths
+$sidebar-collapsed-width: 68px;
+
+// --------------------------------------------
+// App Layout
+// --------------------------------------------
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-sidebar {
+  width: $sidebar-width;
+  flex-shrink: 0;
+  background-color: var(--bg-card);
+  border-right: 1px solid var(--border-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: $z-sticky;
+  transition: width 200ms ease, transform 200ms ease;
+  
+  // Collapsed state
+  &.is-collapsed {
+    width: $sidebar-collapsed-width;
+    
+    .nav-label,
+    .nav-badge {
+      opacity: 0;
+      width: 0;
+      overflow: hidden;
+    }
+    
+    .nav-link {
+      justify-content: center;
+      padding: $spacing-3;
+    }
+    
+    .sidebar-footer {
+      padding: $spacing-2;
+    }
+    
+    .app-version span {
+      font-size: 0.65rem;
+    }
+    
+    .sidebar-toggle {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  // Mobile: hidden by default, slide in when open
+  @include mobile {
+    transform: translateX(-100%);
+    width: $sidebar-width; // Always full width on mobile
+    
+    &.is-collapsed {
+      width: $sidebar-width;
+      
+      .nav-label,
+      .nav-badge {
+        opacity: 1;
+        width: auto;
+      }
+      
+      .nav-link {
+        justify-content: flex-start;
+        padding: $spacing-3 $spacing-4;
+      }
+    }
+  }
+}
+
+// Mobile hamburger button (positioned fixed)
+.sidebar-mobile-trigger {
+  display: none;
+  position: fixed;
+  top: $spacing-3;
+  left: $spacing-3;
+  z-index: $z-sticky + 10;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: $radius-md;
+  padding: $spacing-2;
+  cursor: pointer;
+  color: var(--text-primary);
+  box-shadow: var(--shadow-md);
+  
+  @include mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+// Sidebar open state (mobile)
+body.sidebar-open {
+  overflow: hidden;
+  
+  .app-sidebar {
+    transform: translateX(0);
+  }
+  
+  .sidebar-overlay {
+    display: block;
+  }
+  
+  .sidebar-mobile-trigger {
+    display: none;
+  }
+}
+
+// Sidebar collapsed (body class for main content offset)
+body.sidebar-collapsed {
+  .app-main {
+    margin-left: $sidebar-collapsed-width;
+  }
+  
+  @include mobile {
+    .app-main {
+      margin-left: 0;
+    }
+  }
+}
+
+.app-main {
+  flex: 1;
+  margin-left: $sidebar-width;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  transition: margin-left 200ms ease;
+  
+  @include mobile {
+    margin-left: 0;
+  }
+}
+
+.app-header {
+  height: $header-height;
+  background-color: var(--bg-card);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: $z-sticky;
+  display: flex;
+  align-items: center;
+  padding: 0 $spacing-6;
+}
+
+.app-content {
+  flex: 1;
+  padding: $spacing-6;
+  max-width: $content-max-width;
+  width: 100%;
+  margin: 0 auto;
+  
+  // Tighter padding when showing topic detail (maximize content area)
+  &:has(.page-topic-detail) {
+    padding: $spacing-4;
+    max-width: 100%;
+  }
+  
+  @include mobile {
+    padding: $spacing-4;
+    padding-top: calc($spacing-4 + 48px); // Space for hamburger button
+  }
+}
+
+// Mobile overlay
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: $z-sticky - 1;
+  backdrop-filter: blur(2px);
+}
+
+// --------------------------------------------
+// Container
+// --------------------------------------------
+
+.container {
+  width: 100%;
+  max-width: $content-max-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $spacing-4;
+  padding-right: $spacing-4;
+  
+  @include breakpoint($breakpoint-lg) {
+    padding-left: $spacing-6;
+    padding-right: $spacing-6;
+  }
+}
+
+// --------------------------------------------
+// Flexbox Utilities
+// --------------------------------------------
+
+.flex { display: flex; }
+.inline-flex { display: inline-flex; }
+.flex-col { flex-direction: column; }
+.flex-row { flex-direction: row; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-nowrap { flex-wrap: nowrap; }
+
+.items-start { align-items: flex-start; }
+.items-center { align-items: center; }
+.items-end { align-items: flex-end; }
+.items-stretch { align-items: stretch; }
+
+.justify-start { justify-content: flex-start; }
+.justify-center { justify-content: center; }
+.justify-end { justify-content: flex-end; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+
+.flex-1 { flex: 1 1 0%; }
+.flex-auto { flex: 1 1 auto; }
+.flex-none { flex: none; }
+.flex-shrink-0 { flex-shrink: 0; }
+.flex-grow { flex-grow: 1; }
+
+// --------------------------------------------
+// Grid Utilities
+// --------------------------------------------
+
+.grid { display: grid; }
+
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+// Responsive grid
+.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: $spacing-4;
+  
+  @include breakpoint($breakpoint-sm) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  @include breakpoint($breakpoint-lg) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  
+  @include breakpoint($breakpoint-xl) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+// Gap utilities
+.gap-1 { gap: $spacing-1; }
+.gap-2 { gap: $spacing-2; }
+.gap-3 { gap: $spacing-3; }
+.gap-4 { gap: $spacing-4; }
+.gap-6 { gap: $spacing-6; }
+.gap-8 { gap: $spacing-8; }
+
+// --------------------------------------------
+// Spacing Utilities
+// --------------------------------------------
+
+// Margin
+.m-0 { margin: $spacing-0; }
+.m-1 { margin: $spacing-1; }
+.m-2 { margin: $spacing-2; }
+.m-4 { margin: $spacing-4; }
+.m-6 { margin: $spacing-6; }
+.m-auto { margin: auto; }
+
+.mt-0 { margin-top: $spacing-0; }
+.mt-1 { margin-top: $spacing-1; }
+.mt-2 { margin-top: $spacing-2; }
+.mt-4 { margin-top: $spacing-4; }
+.mt-6 { margin-top: $spacing-6; }
+.mt-8 { margin-top: $spacing-8; }
+
+.mb-0 { margin-bottom: $spacing-0; }
+.mb-1 { margin-bottom: $spacing-1; }
+.mb-2 { margin-bottom: $spacing-2; }
+.mb-4 { margin-bottom: $spacing-4; }
+.mb-6 { margin-bottom: $spacing-6; }
+.mb-8 { margin-bottom: $spacing-8; }
+
+.ml-auto { margin-left: auto; }
+.mr-auto { margin-right: auto; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+// Padding
+.p-0 { padding: $spacing-0; }
+.p-1 { padding: $spacing-1; }
+.p-2 { padding: $spacing-2; }
+.p-4 { padding: $spacing-4; }
+.p-6 { padding: $spacing-6; }
+
+.px-2 { padding-left: $spacing-2; padding-right: $spacing-2; }
+.px-4 { padding-left: $spacing-4; padding-right: $spacing-4; }
+.px-6 { padding-left: $spacing-6; padding-right: $spacing-6; }
+
+.py-2 { padding-top: $spacing-2; padding-bottom: $spacing-2; }
+.py-4 { padding-top: $spacing-4; padding-bottom: $spacing-4; }
+.py-6 { padding-top: $spacing-6; padding-bottom: $spacing-6; }
+
+// --------------------------------------------
+// Width/Height Utilities
+// --------------------------------------------
+
+.w-full { width: 100%; }
+.w-auto { width: auto; }
+.w-screen { width: 100vw; }
+
+.h-full { height: 100%; }
+.h-auto { height: auto; }
+.h-screen { height: 100vh; }
+.min-h-screen { min-height: 100vh; }
+
+// --------------------------------------------
+// Position Utilities
+// --------------------------------------------
+
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.sticky { position: sticky; }
+
+.inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+.top-0 { top: 0; }
+.right-0 { right: 0; }
+.bottom-0 { bottom: 0; }
+.left-0 { left: 0; }
+
+// --------------------------------------------
+// Visibility & Display
+// --------------------------------------------
+
+.hidden { display: none; }
+.block { display: block; }
+.inline-block { display: inline-block; }
+
+.visible { visibility: visible; }
+.invisible { visibility: hidden; }
+
+.opacity-0 { opacity: 0; }
+.opacity-50 { opacity: 0.5; }
+.opacity-100 { opacity: 1; }
+
+.overflow-hidden { overflow: hidden; }
+.overflow-auto { overflow: auto; }
+.overflow-scroll { overflow: scroll; }
+
+// Hide on specific breakpoints
+.hide-mobile {
+  @include mobile {
+    display: none !important;
+  }
+}
+
+.hide-desktop {
+  @include desktop {
+    display: none !important;
+  }
+}

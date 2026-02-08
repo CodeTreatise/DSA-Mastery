@@ -1,0 +1,206 @@
+// ============================================
+// SCSS Variables - Design System
+// ============================================
+
+// --------------------------------------------
+// Colors
+// --------------------------------------------
+
+// Brand Colors
+$primary: #6366f1;        // Indigo
+$primary-dark: #4f46e5;
+$primary-light: #818cf8;
+$accent: $primary;        // Alias for convenience
+
+$secondary: #10b981;      // Emerald
+$secondary-dark: #059669;
+$secondary-light: #34d399;
+
+// Semantic Colors
+$success: #22c55e;
+$warning: #f59e0b;
+$error: #ef4444;
+$info: #3b82f6;
+
+// Difficulty Colors
+$easy: #22c55e;
+$medium: #f59e0b;
+$hard: #ef4444;
+
+// Gray Scale (for light theme)
+$gray-50: #f9fafb;
+$gray-100: #f3f4f6;
+$gray-200: #e5e7eb;
+$gray-300: #d1d5db;
+$gray-400: #9ca3af;
+$gray-500: #6b7280;
+$gray-600: #4b5563;
+$gray-700: #374151;
+$gray-800: #1f2937;
+$gray-900: #111827;
+$gray-950: #030712;
+
+// --------------------------------------------
+// Theme Colors (CSS Variables)
+// --------------------------------------------
+
+:root {
+  // Light theme (default)
+  --bg-primary: #{$gray-50};
+  --bg-secondary: #{$gray-100};
+  --bg-tertiary: #{$gray-200};
+  --bg-card: #ffffff;
+  --bg-hover: #{$gray-100};
+  
+  --text-primary: #{$gray-900};
+  --text-secondary: #{$gray-600};
+  --text-tertiary: #{$gray-500};
+  --text-muted: #{$gray-400};
+  
+  --border-color: #{$gray-200};
+  --border-light: #{$gray-100};
+  
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  
+  --accent: #{$primary};
+  --accent-hover: #{$primary-dark};
+  --accent-light: #{$primary-light};
+}
+
+[data-theme="dark"] {
+  --bg-primary: #{$gray-950};
+  --bg-secondary: #{$gray-900};
+  --bg-tertiary: #{$gray-800};
+  --bg-card: #{$gray-900};
+  --bg-hover: #{$gray-800};
+  
+  --text-primary: #{$gray-100};
+  --text-secondary: #{$gray-400};
+  --text-tertiary: #{$gray-500};
+  --text-muted: #{$gray-600};
+  
+  --border-color: #{$gray-800};
+  --border-light: #{$gray-700};
+  
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+// --------------------------------------------
+// Typography
+// --------------------------------------------
+
+$font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-family-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+
+$font-size-xs: 0.75rem;    // 12px
+$font-size-sm: 0.875rem;   // 14px
+$font-size-base: 1rem;     // 16px
+$font-size-lg: 1.125rem;   // 18px
+$font-size-xl: 1.25rem;    // 20px
+$font-size-2xl: 1.5rem;    // 24px
+$font-size-3xl: 1.875rem;  // 30px
+$font-size-4xl: 2.25rem;   // 36px
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$line-height-tight: 1.25;
+$line-height-base: 1.5;
+$line-height-relaxed: 1.75;
+
+// --------------------------------------------
+// Spacing
+// --------------------------------------------
+
+$spacing-0: 0;
+$spacing-1: 0.25rem;   // 4px
+$spacing-2: 0.5rem;    // 8px
+$spacing-3: 0.75rem;   // 12px
+$spacing-4: 1rem;      // 16px
+$spacing-5: 1.25rem;   // 20px
+$spacing-6: 1.5rem;    // 24px
+$spacing-8: 2rem;      // 32px
+$spacing-10: 2.5rem;   // 40px
+$spacing-12: 3rem;     // 48px
+$spacing-16: 4rem;     // 64px
+
+// --------------------------------------------
+// Layout
+// --------------------------------------------
+
+$sidebar-width: 260px;
+$sidebar-collapsed-width: 64px;
+$header-height: 64px;
+$content-max-width: 1200px;
+
+// --------------------------------------------
+// Breakpoints
+// --------------------------------------------
+
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+$breakpoint-2xl: 1536px;
+
+// Mixins for responsive design
+@mixin mobile {
+  @media (max-width: #{$breakpoint-md - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $breakpoint-md) and (max-width: #{$breakpoint-lg - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $breakpoint-lg) {
+    @content;
+  }
+}
+
+@mixin breakpoint($size) {
+  @media (min-width: $size) {
+    @content;
+  }
+}
+
+// --------------------------------------------
+// Border Radius
+// --------------------------------------------
+
+$radius-sm: 0.25rem;   // 4px
+$radius-md: 0.375rem;  // 6px
+$radius-lg: 0.5rem;    // 8px
+$radius-xl: 0.75rem;   // 12px
+$radius-2xl: 1rem;     // 16px
+$radius-full: 9999px;
+
+// --------------------------------------------
+// Transitions
+// --------------------------------------------
+
+$transition-fast: 150ms ease;
+$transition-base: 200ms ease;
+$transition-slow: 300ms ease;
+
+// --------------------------------------------
+// Z-Index Scale
+// --------------------------------------------
+
+$z-dropdown: 100;
+$z-sticky: 200;
+$z-fixed: 300;
+$z-modal-backdrop: 400;
+$z-modal: 500;
+$z-popover: 600;
+$z-tooltip: 700;

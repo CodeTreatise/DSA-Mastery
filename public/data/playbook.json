@@ -1,0 +1,583 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2025-01-15",
+  "description": "Battle-tested strategies, real success stories, and community-proven techniques for DSA interview preparation",
+
+  "successStories": [
+    {
+      "id": "faang-30min-day",
+      "title": "FAANG+ with Just 30 Minutes a Day",
+      "upvotes": "4.3K",
+      "source": "r/leetcode",
+      "sourceUrl": "https://www.reddit.com/r/leetcode/",
+      "quote": "I set a 30-minute timer every day for 6 months. Some days I did LeetCode, some days System Design. It was about ~90 hours total. Pattern recognition over volume.",
+      "keyTakeaways": [
+        "30-minute timer daily — no more, no less",
+        "Alternated LeetCode and System Design days",
+        "Used NeetCode 150 as the core list",
+        "Switched to company-tagged problems closer to interviews",
+        "Total study time: ~90 hours over 6 months",
+        "Kept hobbies, health, and relationships intact"
+      ],
+      "resources": ["NeetCode 150", "Jordan Has No Life (YouTube)", "HelloInterview"],
+      "outcome": "Multiple FAANG+ offers",
+      "philosophy": "sustainable-habit"
+    },
+    {
+      "id": "meta-350-problems",
+      "title": "350 Problems to Meta E4 ($295K TC)",
+      "upvotes": "4.5K",
+      "source": "r/leetcode",
+      "sourceUrl": "https://www.reddit.com/r/leetcode/",
+      "quote": "Got dumped by my GF of 4 years but got a Meta offer today. 350 problems solved emphasizing patterns, 5+ LC questions per day on remote days.",
+      "keyTakeaways": [
+        "350 problems total, pattern-focused approach",
+        "5+ LeetCode questions per day on remote work days",
+        "NeetCode roadmap for coding prep",
+        "EasyClimb for system design",
+        "Discord for mock interviews",
+        "Behavioral prep using real personal stories"
+      ],
+      "resources": ["NeetCode Roadmap", "EasyClimb", "Discord Mock Interviews"],
+      "outcome": "Meta E4, $295K TC",
+      "philosophy": "high-volume-patterns"
+    },
+    {
+      "id": "leetcode-changed-life",
+      "title": "From Civil War to Google & Meta Interviews",
+      "upvotes": "6.2K",
+      "source": "r/leetcode",
+      "sourceUrl": "https://www.reddit.com/r/leetcode/",
+      "quote": "LeetCode changed my life. Self-taught during civil war, got Google & Meta interviews, sponsored to London for Meta internship at £3000+/month.",
+      "keyTakeaways": [
+        "Self-taught programming from scratch",
+        "LeetCode as the great equalizer",
+        "Background doesn't determine your ceiling",
+        "Consistency and determination over pedigree",
+        "International opportunities through skill alone"
+      ],
+      "resources": ["LeetCode"],
+      "outcome": "Google & Meta interviews, Meta internship in London",
+      "philosophy": "determination"
+    },
+    {
+      "id": "google-prep-6-months",
+      "title": "6 Months of Focused Prep → Google Offer",
+      "upvotes": "",
+      "source": "Steve Yegge's Blog",
+      "sourceUrl": "http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html",
+      "quote": "I prepared for 6 months reading the Cormen Algorithms book and Skiena's Algorithm Design Manual. Implementing algorithms yourself reinforces understanding. Warming my cache 30 min before the interview really paid off.",
+      "keyTakeaways": [
+        "Long-term study: Algorithm Design Manual + CLRS",
+        "Implementing algorithms from scratch — not just reading",
+        "Warm up 30 minutes before every interview",
+        "Practice on whiteboards specifically",
+        "Have a friend interview you repeatedly",
+        "Second attempt succeeded where first failed"
+      ],
+      "resources": ["Algorithm Design Manual (Skiena)", "Introduction to Algorithms (CLRS)"],
+      "outcome": "Google offer on second attempt",
+      "philosophy": "deep-study"
+    },
+    {
+      "id": "algomaster-journey",
+      "title": "Mastering DSA for Amazon, Google & Microsoft",
+      "upvotes": "1K+",
+      "source": "AlgoMaster Newsletter",
+      "sourceUrl": "https://blog.algomaster.io/p/how-i-mastered-data-structures-and-algorithms",
+      "quote": "Getting good at DSA is similar to building muscles in the gym. Lifting the same weights everyday won't make you stronger. You need to slowly lift heavier weights to build muscle.",
+      "keyTakeaways": [
+        "Learn one topic at a time — don't multitask",
+        "Start with basics, then implement from scratch",
+        "Prioritize solving problems over theory",
+        "Think in patterns, not individual solutions",
+        "Use pen and paper for visualization",
+        "Create revision lists on LeetCode"
+      ],
+      "resources": ["Abdul Bari's Algorithms Playlist", "William Fiset's Data Structures Playlist", "Coursera Algorithms 1 & 2"],
+      "outcome": "Cleared Amazon, Google, Microsoft interviews",
+      "philosophy": "progressive-difficulty"
+    }
+  ],
+
+  "studyTechniques": [
+    {
+      "id": "pattern-first",
+      "name": "Pattern-First Learning",
+      "icon": "🧩",
+      "difficulty": "Essential",
+      "description": "Map every problem to a known pattern instead of memorizing solutions. When you see a new problem, your first question should be: 'Which pattern does this match?'",
+      "steps": [
+        "Learn the 15 core patterns (Two Pointers, Sliding Window, BFS/DFS, etc.)",
+        "For each pattern, solve 3-5 problems to internalize it",
+        "When you see a new problem, identify the pattern BEFORE coding",
+        "Group similar problems together in your notes",
+        "If you can't identify the pattern after 10 minutes, look at the hint"
+      ],
+      "source": "Grokking the Coding Interview, AlgoMaster",
+      "sourceUrl": "https://blog.algomaster.io/p/15-leetcode-patterns"
+    },
+    {
+      "id": "spaced-repetition",
+      "name": "Spaced Repetition",
+      "icon": "🔄",
+      "difficulty": "Essential",
+      "description": "Re-solve problems at increasing intervals. The goal is to move solutions from short-term to long-term memory.",
+      "steps": [
+        "After solving a problem, mark it in your revision list",
+        "Re-solve it after 1 day without looking at solution",
+        "Re-solve after 3 days",
+        "Re-solve after 1 week",
+        "Re-solve after 2 weeks — if you get it, it's locked in",
+        "Use LeetCode's built-in lists or Anki for tracking"
+      ],
+      "source": "AlgoMaster, Community Consensus",
+      "sourceUrl": "https://blog.algomaster.io/p/how-i-mastered-data-structures-and-algorithms"
+    },
+    {
+      "id": "30-min-daily",
+      "name": "The 30-Minute Daily Habit",
+      "icon": "⏱️",
+      "difficulty": "Beginner-Friendly",
+      "description": "Set a 30-minute timer every day. When it rings, stop. This sustainable approach prevents burnout and builds consistency over months.",
+      "steps": [
+        "Set a non-negotiable 30-minute daily slot",
+        "Alternate: Day 1 = LeetCode, Day 2 = System Design",
+        "Don't go over time — consistency beats intensity",
+        "Track your streak — the habit is more important than any single session",
+        "Over 6 months, this totals ~90 hours — enough for FAANG offers"
+      ],
+      "source": "r/leetcode Top Post (4.3K upvotes)",
+      "sourceUrl": "https://www.reddit.com/r/leetcode/"
+    },
+    {
+      "id": "progressive-difficulty",
+      "name": "Progressive Difficulty Scaling",
+      "icon": "📈",
+      "difficulty": "Essential",
+      "description": "Start with Easy problems, graduate to Medium when comfortable, then tackle Hard. Never jump to Hard problems before mastering the fundamentals.",
+      "steps": [
+        "Week 1-2: Easy problems only (build confidence)",
+        "Week 3-4: Mix of Easy and Medium",
+        "Week 5-8: Mostly Medium (this is interview standard)",
+        "Week 9-12: Medium + some Hard",
+        "Target times: Easy 10-15min, Medium 20-25min, Hard 30-40min"
+      ],
+      "source": "Tech Interview Handbook",
+      "sourceUrl": "https://www.techinterviewhandbook.org/coding-interview-study-plan/"
+    },
+    {
+      "id": "active-recall",
+      "name": "Explain It Out Loud",
+      "icon": "🎙️",
+      "difficulty": "Essential",
+      "description": "After solving a problem, explain your solution out loud as if teaching someone. This is both active recall practice AND interview communication practice.",
+      "steps": [
+        "Solve the problem normally",
+        "Close the solution and explain your approach from scratch",
+        "Use the 4-step template: Clarify → Plan → Code → Verify",
+        "Record yourself if possible — listen back for clarity",
+        "Practice explaining WHY you chose this approach over alternatives"
+      ],
+      "source": "Steve Yegge, Tech Interview Handbook",
+      "sourceUrl": "https://www.techinterviewhandbook.org/coding-interview-cheatsheet/"
+    },
+    {
+      "id": "topic-at-a-time",
+      "name": "One Topic Per Week",
+      "icon": "🎯",
+      "difficulty": "Beginner-Friendly",
+      "description": "Don't scatter your attention across topics. Spend a full week on Arrays, then a week on Trees, etc. Deep mastery of one topic before moving on.",
+      "steps": [
+        "Pick one topic (e.g., Binary Search)",
+        "Day 1: Read theory, watch a video explanation",
+        "Day 2-3: Implement the core algorithm from scratch",
+        "Day 4-5: Solve 5-8 LeetCode problems for that topic",
+        "Day 6-7: Review mistakes, re-solve hard ones",
+        "Move to next topic only when you feel confident"
+      ],
+      "source": "AlgoMaster",
+      "sourceUrl": "https://blog.algomaster.io/p/how-i-mastered-data-structures-and-algorithms"
+    }
+  ],
+
+  "interviewTactics": [
+    {
+      "id": "4-step-framework",
+      "name": "The 4-Step Interview Framework",
+      "icon": "🏗️",
+      "timeEstimate": "Use every interview",
+      "description": "A structured approach that interviewers expect and reward. Never jump straight into coding.",
+      "steps": [
+        {
+          "name": "1. Clarify",
+          "time": "2-3 min",
+          "details": "Paraphrase the question. Ask about edge cases, input ranges, data types. 'So we have an array of integers, and we need to find...'",
+          "dos": ["Ask at least 2-3 clarifying questions", "Work through a simple example", "Clarify assumptions about input"],
+          "donts": ["Never jump straight to coding", "Don't assume anything about the input"]
+        },
+        {
+          "name": "2. Plan",
+          "time": "3-5 min",
+          "details": "Discuss your approach at a high level. Mention the pattern you recognize. State the time/space complexity BEFORE coding.",
+          "dos": ["Mention 2 approaches if possible", "Explain tradeoffs between approaches", "Get interviewer's agreement before coding"],
+          "donts": ["Don't go into implementation details yet", "Don't appear unsure"]
+        },
+        {
+          "name": "3. Code",
+          "time": "15-20 min",
+          "details": "Write clean, compilable code. Explain what you're doing as you code. Use descriptive variable names.",
+          "dos": ["Talk through your code as you write", "Use meaningful variable names", "Write modular code with helper functions"],
+          "donts": ["Don't code silently", "Don't use single-letter variable names (except i, n)", "Don't repeat yourself"]
+        },
+        {
+          "name": "4. Verify",
+          "time": "3-5 min",
+          "details": "Walk through your code with an example. Check for off-by-one errors. Discuss edge cases.",
+          "dos": ["Trace through with a concrete example", "Mention edge cases you handled", "Reiterate time/space complexity"],
+          "donts": ["Don't announce 'I'm done' immediately", "Don't skip testing"]
+        }
+      ],
+      "source": "Tech Interview Handbook",
+      "sourceUrl": "https://www.techinterviewhandbook.org/coding-interview-cheatsheet/"
+    },
+    {
+      "id": "when-stuck",
+      "name": "When You're Stuck: Recovery Tactics",
+      "icon": "🆘",
+      "timeEstimate": "Practice beforehand",
+      "description": "Getting stuck is normal. What matters is HOW you recover. Interviewers evaluate your problem-solving process, not just the answer.",
+      "steps": [
+        {
+          "name": "1. Verbalize Your Thinking",
+          "time": "",
+          "details": "Say 'Let me think about what we know so far...' and list the constraints. Silent thinking looks like you're frozen.",
+          "dos": ["Think out loud", "Summarize what you know"],
+          "donts": ["Don't go silent for more than 30 seconds"]
+        },
+        {
+          "name": "2. Try Smaller Examples",
+          "time": "",
+          "details": "Reduce the problem to the simplest case. If the array had 1 element, what would the answer be? 2 elements?",
+          "dos": ["Draw out simple cases", "Look for patterns in small inputs"],
+          "donts": ["Don't keep staring at the complex example"]
+        },
+        {
+          "name": "3. Run Through Data Structures",
+          "time": "",
+          "details": "Mentally iterate: Would a hash map help? A stack? A heap? A tree? Often this triggers the right approach.",
+          "dos": ["Try each data structure mentally", "Consider if sorting would help"],
+          "donts": ["Don't fixate on one approach that isn't working"]
+        },
+        {
+          "name": "4. Ask for a Hint",
+          "time": "",
+          "details": "It's OK to ask! 'Could you give me a hint on the right direction?' Some interviewers deduct points, but getting unstuck is better than stalling.",
+          "dos": ["Ask gracefully and specifically", "Show what you've tried already"],
+          "donts": ["Don't ask for the complete answer", "Don't give up before asking"]
+        }
+      ],
+      "source": "Steve Yegge, Tech Interview Handbook",
+      "sourceUrl": "https://www.techinterviewhandbook.org/coding-interview-techniques/"
+    },
+    {
+      "id": "optimization-approach",
+      "name": "The Optimization Ladder",
+      "icon": "⚡",
+      "timeEstimate": "Apply when asked 'Can we do better?'",
+      "description": "When the interviewer asks you to optimize, use this systematic checklist.",
+      "steps": [
+        {
+          "name": "1. Identify BTTC",
+          "time": "",
+          "details": "Best Theoretical Time Complexity — you can't beat O(n) if you must look at every element. Know your floor.",
+          "dos": ["Calculate the theoretical minimum", "Mention it to your interviewer"],
+          "donts": ["Don't try to beat mathematical limits"]
+        },
+        {
+          "name": "2. Eliminate Redundant Work",
+          "time": "",
+          "details": "Are you computing something twice? Can you cache it? Early termination? Avoid unnecessary iterations?",
+          "dos": ["Look for repeated computations", "Use memoization/caching"],
+          "donts": ["Don't overlook simple optimizations like early returns"]
+        },
+        {
+          "name": "3. Change Data Structure",
+          "time": "",
+          "details": "Swap an array for a hash map. Use a heap instead of sorting. Try a Trie for string lookups.",
+          "dos": ["Consider hash maps for O(1) lookup", "Consider heaps for top-K"],
+          "donts": ["Don't be married to your initial data structure choice"]
+        },
+        {
+          "name": "4. Trade Space for Time",
+          "time": "",
+          "details": "Can you use extra space to avoid repeated work? Prefix sums, memoization tables, auxiliary arrays.",
+          "dos": ["Discuss the space-time tradeoff explicitly"],
+          "donts": ["Don't optimize prematurely if brute force isn't working yet"]
+        }
+      ],
+      "source": "Tech Interview Handbook",
+      "sourceUrl": "https://www.techinterviewhandbook.org/coding-interview-techniques/"
+    },
+    {
+      "id": "warmup-routine",
+      "name": "Interview Day Warmup",
+      "icon": "🔥",
+      "timeEstimate": "1 hour before interview",
+      "description": "Treat your interview like a sports game. Never go in cold. Steve Yegge credits his pre-interview warmup for his Google offer.",
+      "steps": [
+        {
+          "name": "Night Before",
+          "time": "",
+          "details": "Get good sleep. Review your notes briefly. Don't cram — it creates anxiety.",
+          "dos": ["Sleep 7-8 hours", "Review key patterns at a glance"],
+          "donts": ["Don't stay up late cramming", "Don't solve new hard problems"]
+        },
+        {
+          "name": "Morning Of",
+          "time": "60 min before",
+          "details": "Solve 1-2 easy/medium problems you've done before. The goal is to get your 'coding brain' warmed up, not to learn something new.",
+          "dos": ["Solve familiar problems", "Drink coffee if it helps you think", "Warm up your cache"],
+          "donts": ["Don't attempt anything you haven't seen before", "Don't skip warmup"]
+        },
+        {
+          "name": "Right Before",
+          "time": "5 min before",
+          "details": "Take deep breaths. Remind yourself that it's OK to not solve everything. You just need to show good problem-solving process.",
+          "dos": ["Prepare pen and paper", "Test your audio/video setup", "Have water nearby"],
+          "donts": ["Don't arrive late or flustered"]
+        }
+      ],
+      "source": "Steve Yegge's 'Get That Job at Google'",
+      "sourceUrl": "http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html"
+    }
+  ],
+
+  "toolsAndWorkflows": [
+    {
+      "id": "neetcode-roadmap",
+      "name": "NeetCode Roadmap",
+      "icon": "🗺️",
+      "url": "https://neetcode.io/roadmap",
+      "category": "Problem Lists",
+      "description": "The most popular structured LeetCode roadmap. Start with NeetCode 150, then expand to 250. Organized by pattern with video explanations.",
+      "whyItWorks": "Problems are ordered by topic and difficulty. Each has a video explanation. The roadmap prevents random grinding."
+    },
+    {
+      "id": "grind75",
+      "name": "Grind 75",
+      "icon": "🔧",
+      "url": "https://www.techinterviewhandbook.org/grind75/",
+      "category": "Problem Lists",
+      "description": "A customizable study plan generator by Yangshun (ex-Meta Staff Engineer, creator of Blind 75). Set your available time and it generates an optimal plan.",
+      "whyItWorks": "Algorithm-driven priority ranking. Balances breadth and depth. Adapts to YOUR schedule."
+    },
+    {
+      "id": "leetcode-lists",
+      "name": "LeetCode Problem Lists",
+      "icon": "📋",
+      "url": "https://leetcode.com/",
+      "category": "Tracking",
+      "description": "Create custom lists on LeetCode for problems you couldn't solve, problems to re-solve, and pattern-specific practice.",
+      "whyItWorks": "Built-in spaced repetition. Tag problems by pattern. Track what needs revision vs what's mastered."
+    },
+    {
+      "id": "anki-flashcards",
+      "name": "Anki for DSA",
+      "icon": "🃏",
+      "url": "https://apps.ankiweb.net/",
+      "category": "Retention",
+      "description": "Create flashcards for pattern recognition, complexity analysis, and key algorithm templates. Anki's spaced repetition algorithm handles scheduling.",
+      "whyItWorks": "Scientifically proven spaced repetition. Perfect for memorizing Big-O complexities, pattern signals, and algorithm templates."
+    },
+    {
+      "id": "mock-interviews",
+      "name": "Mock Interview Platforms",
+      "icon": "🎤",
+      "url": "https://interviewing.io/",
+      "category": "Practice",
+      "description": "Practice with real engineers from FAANG. Also: Pramp (free peer-to-peer), Discord communities for mock interviews.",
+      "whyItWorks": "The #1 thing candidates wish they'd done more. Talking through solutions while coding is a skill that only comes from practice."
+    },
+    {
+      "id": "notion-tracker",
+      "name": "Problem-Solving Tracker",
+      "icon": "📊",
+      "url": "https://notion.so/",
+      "category": "Tracking",
+      "description": "Use Notion, Google Sheets, or a spreadsheet to track: problem name, pattern, difficulty, time taken, whether you solved it independently, and notes.",
+      "whyItWorks": "Data-driven prep. See which patterns are weak. Know exactly how many problems you've done and where gaps remain."
+    },
+    {
+      "id": "visualizers",
+      "name": "Algorithm Visualizers",
+      "icon": "👁️",
+      "url": "https://visualgo.net/",
+      "category": "Learning",
+      "description": "VisuAlgo, Algorithm Visualizer, and Python Tutor help you SEE how algorithms work step by step. Essential for trees, graphs, and sorting.",
+      "whyItWorks": "Visual learners retain 65% more. Seeing the algorithm animate makes abstract concepts concrete."
+    },
+    {
+      "id": "system-design",
+      "name": "System Design Resources",
+      "icon": "🏛️",
+      "url": "https://www.youtube.com/@jordanhasnolife5163",
+      "category": "System Design",
+      "description": "For mid-to-senior roles: Jordan Has No Life (YouTube), HelloInterview, EasyClimb, ByteByteGo, System Design Primer.",
+      "whyItWorks": "System design is 50% of senior interviews. These resources are consistently recommended by people who passed."
+    }
+  ],
+
+  "wisdomQuotes": [
+    {
+      "id": "q1",
+      "quote": "The ability to map a new problem to an already known problem is the most important skill.",
+      "author": "Grokking the Coding Interview",
+      "category": "patterns"
+    },
+    {
+      "id": "q2",
+      "quote": "Understand, don't memorize. Memorization may help you solve specific problems, but it limits your ability to adapt.",
+      "author": "Ashish Pratap Singh (AlgoMaster)",
+      "category": "learning"
+    },
+    {
+      "id": "q3",
+      "quote": "Think of studying for interviews like brushing your teeth — a small daily habit, not a weekend marathon.",
+      "author": "r/leetcode Community",
+      "category": "consistency"
+    },
+    {
+      "id": "q4",
+      "quote": "Your best bet, interview-prep wise, is to practice the art of recognizing that certain problem classes are best solved with certain algorithms and data structures.",
+      "author": "Steve Yegge (Google)",
+      "category": "patterns"
+    },
+    {
+      "id": "q5",
+      "quote": "If you go in warmed up you'll give your best performance. Treat it like a sports game or a music recital.",
+      "author": "Steve Yegge (Google)",
+      "category": "mindset"
+    },
+    {
+      "id": "q6",
+      "quote": "You should go in humble, open-minded, and focused. If you come across as arrogant, people will question whether they want to work with you.",
+      "author": "Steve Yegge (Google)",
+      "category": "mindset"
+    },
+    {
+      "id": "q7",
+      "quote": "Google has a well-known false negative rate. If you don't get an offer, you may still be qualified. Come back in 6-12 months.",
+      "author": "Steve Yegge (Google)",
+      "category": "resilience"
+    },
+    {
+      "id": "q8",
+      "quote": "Pattern recognition over volume. I did ~90 hours total over 6 months and got multiple FAANG offers.",
+      "author": "r/leetcode Top Post (4.3K upvotes)",
+      "category": "efficiency"
+    },
+    {
+      "id": "q9",
+      "quote": "Once you are done coding, do NOT announce that you are done. Scan for mistakes and add test cases first.",
+      "author": "Yangshun Tay (Tech Interview Handbook)",
+      "category": "tactics"
+    },
+    {
+      "id": "q10",
+      "quote": "It's OK to ask for a hint. Getting unstuck is better than stalling for 15 minutes in silence.",
+      "author": "Community Consensus",
+      "category": "tactics"
+    },
+    {
+      "id": "q11",
+      "quote": "Hashtables are arguably the single most important data structure known to mankind. You absolutely have to know how they work.",
+      "author": "Steve Yegge (Google)",
+      "category": "fundamentals"
+    },
+    {
+      "id": "q12",
+      "quote": "Whenever someone gives you a problem, think graphs. They are the most fundamental and flexible way of representing any kind of relationship.",
+      "author": "Steve Yegge (Google)",
+      "category": "patterns"
+    }
+  ],
+
+  "evaluationCriteria": {
+    "title": "What Interviewers Actually Evaluate",
+    "source": "Tech Interview Handbook",
+    "sourceUrl": "https://www.techinterviewhandbook.org/coding-interview-rubrics/",
+    "criteria": [
+      {
+        "name": "Communication",
+        "weight": "30%",
+        "icon": "💬",
+        "description": "Asking clarifying questions, explaining your approach clearly, discussing tradeoffs so the interviewer can follow your thinking."
+      },
+      {
+        "name": "Problem Solving",
+        "weight": "30%",
+        "icon": "🧠",
+        "description": "Understanding the problem systematically, discussing multiple approaches, accurately determining time/space complexity."
+      },
+      {
+        "name": "Technical Competency",
+        "weight": "25%",
+        "icon": "💻",
+        "description": "Clean, correct implementation. Strong knowledge of language constructs. No significant struggle translating solution to code."
+      },
+      {
+        "name": "Testing",
+        "weight": "15%",
+        "icon": "🧪",
+        "description": "Testing against normal and corner cases. Self-correcting bugs. Discussing edge cases proactively."
+      }
+    ]
+  },
+
+  "studyPlans": [
+    {
+      "id": "1-month-sprint",
+      "name": "1-Month Sprint",
+      "icon": "🏃",
+      "dailyHours": "2-3",
+      "totalProblems": "75",
+      "approach": "Breadth-first",
+      "weeks": [
+        "Week 1: Arrays, Strings, Hash Maps, Recursion — solve 5 Easy per topic",
+        "Week 2: Trees, Graphs, Stacks, Queues — solve 3-5 Easy + Medium per topic",
+        "Week 3: Mixed Medium problems from Grind 75 — pattern recognition focus",
+        "Week 4: Company-tagged problems, mock interviews, review weak patterns"
+      ]
+    },
+    {
+      "id": "3-month-deep",
+      "name": "3-Month Deep Dive",
+      "icon": "🏊",
+      "dailyHours": "1-2",
+      "totalProblems": "150",
+      "approach": "Depth-first-then-breadth",
+      "weeks": [
+        "Weeks 1-4: One topic per week — theory + 8-12 problems per topic",
+        "Weeks 5-8: NeetCode 150 Medium problems — pattern-focused",
+        "Weeks 9-10: Hard problems + system design (for senior roles)",
+        "Weeks 11-12: Mock interviews, company-tagged, behavioral prep"
+      ]
+    },
+    {
+      "id": "sustainable-habit",
+      "name": "6-Month Sustainable Habit",
+      "icon": "🌱",
+      "dailyHours": "0.5",
+      "totalProblems": "100-150",
+      "approach": "Sustainable daily practice",
+      "weeks": [
+        "30 minutes daily — no exceptions, no marathons",
+        "Alternate: LeetCode day → System Design day",
+        "Start with NeetCode 150, progress to company-tagged",
+        "Add mock interviews in months 4-6",
+        "Total: ~90 hours — proven sufficient for FAANG offers"
+      ]
+    }
+  ]
+}

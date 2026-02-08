@@ -1,0 +1,26 @@
+{
+  "name": "dsa-mastery",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:content && tsc && vite build",
+    "build:content": "node scripts/build-content.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dompurify": "^3.2.5",
+    "highlight.js": "^11.11.1",
+    "marked": "^15.0.12",
+    "marked-highlight": "^2.2.1",
+    "mermaid": "^11.6.0"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.2.0",
+    "@types/node": "^25.2.0",
+    "sass": "^1.97.3",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  }
+}

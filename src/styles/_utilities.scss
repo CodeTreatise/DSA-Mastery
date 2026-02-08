@@ -1,0 +1,212 @@
+// ============================================
+// Utility Classes
+// ============================================
+
+@use './variables' as *;
+
+// --------------------------------------------
+// Borders
+// --------------------------------------------
+
+.border { border: 1px solid var(--border-color); }
+.border-t { border-top: 1px solid var(--border-color); }
+.border-b { border-bottom: 1px solid var(--border-color); }
+.border-l { border-left: 1px solid var(--border-color); }
+.border-r { border-right: 1px solid var(--border-color); }
+.border-none { border: none; }
+
+// Border radius
+.rounded-none { border-radius: 0; }
+.rounded-sm { border-radius: $radius-sm; }
+.rounded { border-radius: $radius-md; }
+.rounded-lg { border-radius: $radius-lg; }
+.rounded-xl { border-radius: $radius-xl; }
+.rounded-full { border-radius: $radius-full; }
+
+// --------------------------------------------
+// Backgrounds
+// --------------------------------------------
+
+.bg-primary { background-color: var(--bg-primary); }
+.bg-secondary { background-color: var(--bg-secondary); }
+.bg-tertiary { background-color: var(--bg-tertiary); }
+.bg-card { background-color: var(--bg-card); }
+.bg-accent { background-color: var(--accent); }
+.bg-transparent { background-color: transparent; }
+
+// --------------------------------------------
+// Shadows
+// --------------------------------------------
+
+.shadow-none { box-shadow: none; }
+.shadow-sm { box-shadow: var(--shadow-sm); }
+.shadow { box-shadow: var(--shadow-md); }
+.shadow-lg { box-shadow: var(--shadow-lg); }
+
+// --------------------------------------------
+// Cursor
+// --------------------------------------------
+
+.cursor-pointer { cursor: pointer; }
+.cursor-default { cursor: default; }
+.cursor-not-allowed { cursor: not-allowed; }
+
+// --------------------------------------------
+// User Select
+// --------------------------------------------
+
+.select-none { user-select: none; }
+.select-text { user-select: text; }
+.select-all { user-select: all; }
+
+// --------------------------------------------
+// Pointer Events
+// --------------------------------------------
+
+.pointer-events-none { pointer-events: none; }
+.pointer-events-auto { pointer-events: auto; }
+
+// --------------------------------------------
+// Transitions
+// --------------------------------------------
+
+.transition { transition: all $transition-base; }
+.transition-fast { transition: all $transition-fast; }
+.transition-slow { transition: all $transition-slow; }
+.transition-none { transition: none; }
+
+// --------------------------------------------
+// Animations
+// --------------------------------------------
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(-25%); animation-timing-function: cubic-bezier(0.8, 0, 1, 1); }
+  50% { transform: translateY(0); animation-timing-function: cubic-bezier(0, 0, 0.2, 1); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-down {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-spin { animation: spin 1s linear infinite; }
+.animate-pulse { animation: pulse 2s ease-in-out infinite; }
+.animate-bounce { animation: bounce 1s infinite; }
+.animate-fade-in { animation: fade-in $transition-base; }
+.animate-slide-up { animation: slide-up $transition-base; }
+.animate-slide-down { animation: slide-down $transition-base; }
+
+// --------------------------------------------
+// Screen Reader Only
+// --------------------------------------------
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// --------------------------------------------
+// Print
+// --------------------------------------------
+
+@media print {
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+}
+
+.print-only { display: none; }
+
+// --------------------------------------------
+// Hover Effects
+// --------------------------------------------
+
+.hover-lift {
+  transition: transform $transition-fast;
+  
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.hover-scale {
+  transition: transform $transition-fast;
+  
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+.hover-glow {
+  transition: box-shadow $transition-fast;
+  
+  &:hover {
+    box-shadow: 0 0 20px rgba($primary, 0.3);
+  }
+}
+
+// --------------------------------------------
+// Z-Index Utilities
+// --------------------------------------------
+
+.z-0 { z-index: 0; }
+.z-10 { z-index: 10; }
+.z-20 { z-index: 20; }
+.z-30 { z-index: 30; }
+.z-40 { z-index: 40; }
+.z-50 { z-index: 50; }
+.z-auto { z-index: auto; }
+
+// --------------------------------------------
+// Aspect Ratio
+// --------------------------------------------
+
+.aspect-square { aspect-ratio: 1 / 1; }
+.aspect-video { aspect-ratio: 16 / 9; }
+.aspect-4-3 { aspect-ratio: 4 / 3; }
+
+// --------------------------------------------
+// Object Fit
+// --------------------------------------------
+
+.object-contain { object-fit: contain; }
+.object-cover { object-fit: cover; }
+.object-fill { object-fit: fill; }
+.object-none { object-fit: none; }
+
+// --------------------------------------------
+// Scroll Behavior
+// --------------------------------------------
+
+.scroll-smooth { scroll-behavior: smooth; }
+.scroll-auto { scroll-behavior: auto; }
+
+.overscroll-auto { overscroll-behavior: auto; }
+.overscroll-contain { overscroll-behavior: contain; }
+.overscroll-none { overscroll-behavior: none; }

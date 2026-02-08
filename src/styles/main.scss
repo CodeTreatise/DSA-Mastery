@@ -1,0 +1,25 @@
+// ============================================
+// Main SCSS Entry Point
+// ============================================
+
+// Variables and functions first
+@use './variables' as *;
+
+// Base styles
+@use './reset' as *;
+@use './typography' as *;
+
+// Layout
+@use './layout' as *;
+
+// Components
+@use './components' as *;
+
+// Component-specific styles
+@use './components/index' as *;
+
+// Page-specific styles
+@use './pages' as *;
+
+// Utilities (load last for override priority)
+@use './utilities' as *;

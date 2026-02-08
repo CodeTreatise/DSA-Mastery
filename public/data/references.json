@@ -1,0 +1,1072 @@
+{
+  "version": "3.0.0",
+  "generatedAt": "2026-06-15T00:00:00.000Z",
+  "description": "Curated, quality-ranked external references and learning resources for DSA interview preparation",
+  "categories": [
+    {
+      "id": "github-repos",
+      "name": "📚 GitHub Repositories",
+      "description": "Community-curated open source repositories with code, study plans, and solutions",
+      "resources": [
+        {
+          "id": "coding-interview-university",
+          "name": "Coding Interview University",
+          "url": "https://github.com/jwasham/coding-interview-university",
+          "stars": "337K",
+          "tier": "S",
+          "description": "Complete multi-month CS self-study curriculum. The most comprehensive and most starred interview prep repo. Created by an engineer who went from self-taught to Amazon SDE.",
+          "bestFor": ["Complete beginners", "Career changers", "Comprehensive CS study"],
+          "languages": ["Multi-language"]
+        },
+        {
+          "id": "system-design-primer",
+          "name": "System Design Primer",
+          "url": "https://github.com/donnemartin/system-design-primer",
+          "stars": "333K",
+          "tier": "S",
+          "description": "Learn system design for technical interviews. Covers scalability, databases, caching, load balancing, and real-world architecture. Essential for senior-level interviews.",
+          "bestFor": ["Senior roles", "System design rounds", "Architecture knowledge"],
+          "languages": ["Python"]
+        },
+        {
+          "id": "algorithms-python",
+          "name": "TheAlgorithms/Python",
+          "url": "https://github.com/TheAlgorithms/Python",
+          "stars": "217K",
+          "tier": "S",
+          "description": "Every algorithm implemented in Python for education. 1,263+ contributors. Covers sorting, searching, graphs, DP, math, ML, and more. The largest algorithm implementation collection.",
+          "bestFor": ["Python learners", "Algorithm reference", "Code examples"],
+          "languages": ["Python"]
+        },
+        {
+          "id": "javascript-algorithms",
+          "name": "javascript-algorithms",
+          "url": "https://github.com/trekhleb/javascript-algorithms",
+          "stars": "196K",
+          "tier": "S",
+          "description": "Algorithms and data structures in JavaScript with explanations and links to further readings. Each algorithm has its own README with complexity analysis. 214+ contributors.",
+          "bestFor": ["JavaScript developers", "Frontend interviews", "Visual learners"],
+          "languages": ["JavaScript"]
+        },
+        {
+          "id": "hello-algo",
+          "name": "Hello Algo",
+          "url": "https://www.hello-algo.com/en/",
+          "stars": "122K",
+          "tier": "S",
+          "description": "Data structures and algorithms crash course with 500+ animated illustrations, code in 14 programming languages, and 3000+ community Q&As. Endorsed by Tsinghua University professors. Beautiful, modern, free online book.",
+          "bestFor": ["Visual learners", "Beginners", "Multi-language support", "Animated explanations"],
+          "languages": ["Python", "Java", "C++", "Go", "JS", "TS", "C", "C#", "Rust", "Swift", "Dart", "Ruby", "Kotlin", "Zig"]
+        },
+        {
+          "id": "tech-interview-handbook-repo",
+          "name": "Tech Interview Handbook",
+          "url": "https://github.com/yangshun/tech-interview-handbook",
+          "stars": "137K",
+          "tier": "S",
+          "description": "Curated coding interview preparation materials. Created by Yangshun (ex-Meta Staff Engineer, author of Blind 75 & Grind 75). Covers algorithms, behavioral, resume, and negotiation.",
+          "bestFor": ["Comprehensive guide", "Interview tips", "Complexity cheatsheets"],
+          "languages": ["Multi-language"]
+        },
+        {
+          "id": "labuladong",
+          "name": "labuladong 算法笔记",
+          "url": "https://github.com/labuladong/fucking-algorithm",
+          "stars": "132K",
+          "tier": "S",
+          "description": "Framework-based algorithm thinking. Teaches you to recognize patterns and build solution templates rather than memorizing individual solutions. Available in English.",
+          "bestFor": ["Framework approach", "Pattern templates", "Deep understanding"],
+          "languages": ["Java", "C++", "Python", "Go"]
+        },
+        {
+          "id": "leetcode-master",
+          "name": "代码随想录 (leetcode-master)",
+          "url": "https://github.com/youngyangyang04/leetcode-master",
+          "stars": "60K",
+          "tier": "A",
+          "description": "Structured learning path from arrays to graphs with detailed explanations and thinking process. Available in Chinese with English translations. Very methodical approach.",
+          "bestFor": ["Structured learning", "Detailed explanations", "Pattern-based approach"],
+          "languages": ["C++", "Java", "Python", "Go"]
+        },
+        {
+          "id": "interviews-java",
+          "name": "kdn251/interviews",
+          "url": "https://github.com/kdn251/interviews",
+          "stars": "65K",
+          "tier": "A",
+          "description": "Everything you need for technical interviews. Solutions organized by topic with company tags. Java-focused with comprehensive cheat sheets.",
+          "bestFor": ["Java developers", "Quick reference", "Company-specific prep"],
+          "languages": ["Java"]
+        },
+        {
+          "id": "leetcode-top",
+          "name": "LeetcodeTop",
+          "url": "https://github.com/afatcoder/LeetcodeTop",
+          "stars": "20K",
+          "tier": "A",
+          "description": "Company-specific most frequent interview problems from insider data. Regularly updated with real interview frequency data.",
+          "bestFor": ["Company targeting", "Frequency analysis", "Recent interview trends"],
+          "languages": ["Multi-language"]
+        },
+        {
+          "id": "awesome-leetcode",
+          "name": "awesome-leetcode-resources",
+          "url": "https://github.com/ashishps1/awesome-leetcode-resources",
+          "stars": "16K",
+          "tier": "A",
+          "description": "Curated list of LeetCode resources, patterns, must-read articles, YouTube playlists, and LeetCode extensions. Created by AlgoMaster. Covers 15 core patterns and 20 DP patterns.",
+          "bestFor": ["Resource discovery", "Learning paths", "Community picks"],
+          "languages": ["Multi-language"]
+        },
+        {
+          "id": "leetcode-patterns-github",
+          "name": "LeetCode Patterns (SeanPrashad)",
+          "url": "https://github.com/seanprashad/leetcode-patterns",
+          "stars": "11K",
+          "tier": "A",
+          "description": "Pattern-based problem organization with interactive website. Filter by pattern, difficulty, and company. A curated list of LeetCode questions grouped by their common patterns.",
+          "bestFor": ["Pattern-based learning", "Visual organization", "Quick filtering"],
+          "languages": ["Multi-language"]
+        },
+        {
+          "id": "dsa-bootcamp-java",
+          "name": "DSA Bootcamp Java (Kunal Kushwaha)",
+          "url": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
+          "stars": "22K",
+          "tier": "A",
+          "description": "Complete DSA bootcamp with free YouTube video course. Assignments and lecture notes for each topic. Community-driven with active Discord.",
+          "bestFor": ["Java developers", "Video bootcamp", "Complete curriculum"],
+          "languages": ["Java"]
+        },
+        {
+          "id": "cs-notes",
+          "name": "CS-Notes (CyC2018)",
+          "url": "https://github.com/CyC2018/CS-Notes",
+          "stars": "179K",
+          "tier": "S",
+          "description": "Comprehensive technical interview knowledge base covering LeetCode solutions, OS, networking, databases, and system design. One of the most starred repos on all of GitHub.",
+          "bestFor": ["Full-stack CS knowledge", "Chinese/English study", "System design basics"],
+          "languages": ["Java"]
+        },
+        {
+          "id": "doocs-leetcode",
+          "name": "doocs/leetcode",
+          "url": "https://github.com/doocs/leetcode",
+          "stars": "34K",
+          "tier": "A",
+          "description": "LeetCode solutions in every major programming language including JavaScript, Java, Go, C#, C++, and Python3. Also includes Sword to Offer and Programmer Interview Classic problems.",
+          "bestFor": ["Multi-language solutions", "Comprehensive coverage", "Chinese classics"],
+          "languages": ["Java", "Python", "C++", "Go", "JavaScript", "C#"]
+        },
+        {
+          "id": "leetcode-go",
+          "name": "LeetCode-Go (halfrost)",
+          "url": "https://github.com/halfrost/LeetCode-Go",
+          "stars": "33K",
+          "tier": "A",
+          "description": "LeetCode solutions in Go with 100% test coverage and runtime beats 100%. By a senior engineer at ByteDance. Each solution is tested and benchmarked.",
+          "bestFor": ["Go developers", "Test-driven solutions", "Performance optimization"],
+          "languages": ["Go"]
+        },
+        {
+          "id": "leetcode-animation",
+          "name": "LeetCodeAnimation",
+          "url": "https://github.com/MisterBooo/LeetCodeAnimation",
+          "stars": "76K",
+          "tier": "A",
+          "description": "LeetCode problems explained through animations. Visual step-by-step algorithm walkthroughs. Great for understanding how algorithms work before implementing them.",
+          "bestFor": ["Visual learners", "Animation-based learning", "Algorithm intuition"],
+          "languages": ["Java"]
+        },
+        {
+          "id": "complete-faang-prep",
+          "name": "The Complete FAANG Preparation",
+          "url": "https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation",
+          "stars": "19K",
+          "tier": "A",
+          "description": "All-in-one repository covering DSA, Love Babbar's 450, Striver's sheet, OS, DBMS, SQL, Computer Networks, and OOP. A meta-resource linking to curated problem lists and CS fundamentals.",
+          "bestFor": ["All-in-one resource", "FAANG targeting", "CS fundamentals"],
+          "languages": ["Python", "Java", "C++"]
+        },
+        {
+          "id": "leetcode-company-wise",
+          "name": "LeetCode Company-Wise Problems",
+          "url": "https://github.com/liquidslr/leetcode-company-wise-problems",
+          "stars": "9K",
+          "tier": "A",
+          "description": "Lists of company-specific LeetCode problems based on premium company tags. Regularly updated CSV files for Google, Meta, Amazon, Microsoft, and dozens more companies.",
+          "bestFor": ["Company-specific prep", "Targeted practice", "Free premium alternative"],
+          "languages": ["Multi-language"]
+        },
+        {
+          "id": "algorithms-javascript",
+          "name": "TheAlgorithms/JavaScript",
+          "url": "https://github.com/TheAlgorithms/JavaScript",
+          "stars": "34K",
+          "tier": "A",
+          "description": "All algorithms implemented in JavaScript for beginners, following best practices. Covers data structures, sorting, searching, cryptography, math, and more. Community-driven.",
+          "bestFor": ["JavaScript reference", "Beginner-friendly", "Best practices"],
+          "languages": ["JavaScript"]
+        },
+        {
+          "id": "algorithm-pattern",
+          "name": "algorithm-pattern (greyireland)",
+          "url": "https://github.com/greyireland/algorithm-pattern",
+          "stars": "15K",
+          "tier": "B",
+          "description": "Algorithm template-based learning: the most scientific way to practice LeetCode. Provides reusable templates for binary search, BFS/DFS, DP, and more. Go-based implementations.",
+          "bestFor": ["Template approach", "Go developers", "Scientific method"],
+          "languages": ["Go"]
+        },
+        {
+          "id": "ctci-solutions",
+          "name": "CtCI-6th-Edition Solutions",
+          "url": "https://github.com/careercup/CtCI-6th-Edition",
+          "stars": "12K",
+          "tier": "B",
+          "description": "Official crowd-sourced solutions to Cracking the Coding Interview (6th Edition). Companion to the CTCI book with solutions in multiple languages.",
+          "bestFor": ["CTCI companion", "Multiple language solutions", "Book supplement"],
+          "languages": ["Java", "Python", "C++", "JavaScript"]
+        }
+      ]
+    },
+    {
+      "id": "problem-lists",
+      "name": "📋 Curated Problem Lists",
+      "description": "Essential problem sets with strategic ordering for interview preparation",
+      "resources": [
+        {
+          "id": "blind-75",
+          "name": "Blind 75",
+          "url": "https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU",
+          "tier": "S",
+          "description": "The original 75 problems that cover all major coding patterns. Created by Yangshun (then FB engineer) and shared on Blind. The gold standard minimum set. If you solve only one list, make it this one.",
+          "problemCount": 75,
+          "timeEstimate": "4-6 weeks",
+          "bestFor": ["Time-constrained prep", "Pattern coverage", "Essential minimum"]
+        },
+        {
+          "id": "grind-75",
+          "name": "Grind 75",
+          "url": "https://www.techinterviewhandbook.org/grind75",
+          "tier": "S",
+          "description": "The modern evolution of Blind 75 by the same author. Fully customizable: set your time per week, number of weeks, and preferred topics. Generates an optimal study schedule.",
+          "problemCount": "75-169",
+          "timeEstimate": "Custom (1-26 weeks)",
+          "bestFor": ["Flexible scheduling", "Customized difficulty", "Progress tracking"]
+        },
+        {
+          "id": "neetcode-150",
+          "name": "NeetCode 150",
+          "url": "https://neetcode.io/practice",
+          "tier": "S",
+          "description": "Extended Blind 75 with video explanations for every single problem. Organized by topic with a visual roadmap. Free video solutions on YouTube. The most recommended list on r/leetcode.",
+          "problemCount": 150,
+          "timeEstimate": "8-12 weeks",
+          "bestFor": ["Video learners", "Extended practice", "Pattern mastery"]
+        },
+        {
+          "id": "neetcode-250",
+          "name": "NeetCode 250",
+          "url": "https://neetcode.io/practice",
+          "tier": "A",
+          "description": "The comprehensive NeetCode set with all 250 curated problems. Extends the 150 with deeper coverage of each topic for thorough mastery.",
+          "problemCount": 250,
+          "timeEstimate": "3-5 months",
+          "bestFor": ["Comprehensive prep", "Deep mastery", "Long-term study"]
+        },
+        {
+          "id": "striver-sde",
+          "name": "Striver's SDE Sheet",
+          "url": "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/",
+          "tier": "A",
+          "description": "191 hand-picked problems for SDE interviews with free video solutions. Created by Raj Vikramaditya (Striver) who has worked at Google. Very popular globally.",
+          "problemCount": 191,
+          "timeEstimate": "6-8 weeks",
+          "bestFor": ["SDE interviews", "Structured approach", "Video solutions"]
+        },
+        {
+          "id": "striver-a2z",
+          "name": "Striver's A2Z DSA Sheet",
+          "url": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+          "tier": "A",
+          "description": "455 problems covering DSA from absolute basics to advanced. The most comprehensive free structured problem set. Each problem has video solution and article explanation.",
+          "problemCount": 455,
+          "timeEstimate": "3-4 months",
+          "bestFor": ["Complete beginners", "Full curriculum", "Topic mastery"]
+        },
+        {
+          "id": "algomaster-300",
+          "name": "AlgoMaster 300",
+          "url": "https://algomaster.io/practice/dsa-patterns",
+          "tier": "A",
+          "description": "300 problems organized by 15 core patterns. By Ashish (AlgoMaster blog). Includes pattern explanations with each problem grouping. Modern and well-maintained.",
+          "problemCount": 300,
+          "timeEstimate": "10-14 weeks",
+          "bestFor": ["Pattern-based learning", "Modern curation", "Blog companion"]
+        },
+        {
+          "id": "leetcode-top-100",
+          "name": "LeetCode Top 100 Liked",
+          "url": "https://leetcode.com/studyplan/top-100-liked/",
+          "tier": "A",
+          "description": "The 100 most liked problems on LeetCode by the community. These are the problems people find most educational and interview-representative.",
+          "problemCount": 100,
+          "timeEstimate": "6-8 weeks",
+          "bestFor": ["Community favorites", "High-quality problems", "Interview representative"]
+        },
+        {
+          "id": "leetcode-top-150",
+          "name": "LeetCode Top Interview 150",
+          "url": "https://leetcode.com/studyplan/top-interview-150/",
+          "tier": "A",
+          "description": "LeetCode's official curated interview preparation list. Organized by topic with difficulty progression. Built-in progress tracking on LeetCode.",
+          "problemCount": 150,
+          "timeEstimate": "8-12 weeks",
+          "bestFor": ["Official LeetCode plan", "Built-in tracking", "Topic organization"]
+        },
+        {
+          "id": "leetcode-patterns-web",
+          "name": "LeetCode Patterns",
+          "url": "https://seanprashad.com/leetcode-patterns/",
+          "tier": "B",
+          "description": "Interactive website to filter and organize LeetCode problems by pattern. Filter by pattern type, difficulty, and company. Clean, fast interface.",
+          "problemCount": "170+",
+          "timeEstimate": "6-10 weeks",
+          "bestFor": ["Pattern-based learning", "Visual organization", "Quick filtering"]
+        },
+        {
+          "id": "leetcode-75",
+          "name": "LeetCode 75",
+          "url": "https://leetcode.com/studyplan/leetcode-75/",
+          "tier": "A",
+          "description": "LeetCode's official curated 75-problem study plan covering essential topics with progressive difficulty. Built-in progress tracking. Great alternative to Blind 75 with official LeetCode integration.",
+          "problemCount": 75,
+          "timeEstimate": "4-6 weeks",
+          "bestFor": ["Official LeetCode plan", "Progressive difficulty", "Essential coverage"]
+        },
+        {
+          "id": "neetcode-practice",
+          "name": "NeetCode Practice (Core Skills)",
+          "url": "https://neetcode.io/practice",
+          "tier": "A",
+          "description": "95 implementation-focused problems for data structures, algorithms, sorting, graphs, and DP. Build common data structures from scratch. Includes SQL and design patterns sections.",
+          "problemCount": 95,
+          "timeEstimate": "4-6 weeks",
+          "bestFor": ["Implementation practice", "Build from scratch", "Core fundamentals"]
+        }
+      ]
+    },
+    {
+      "id": "video-resources",
+      "name": "🎥 Video Resources",
+      "description": "YouTube channels and video series for visual and auditory learners",
+      "resources": [
+        {
+          "id": "neetcode-youtube",
+          "name": "NeetCode",
+          "url": "https://www.youtube.com/@NeetCode",
+          "subscribers": "1.2M+",
+          "tier": "S",
+          "description": "The #1 LeetCode YouTube channel. Clean explanations with code walkthroughs, pattern recognition, and optimal solutions. Previously at Google & Amazon. Every NeetCode 150/250 problem has a free video.",
+          "bestFor": ["Clear explanations", "Pattern recognition", "Interview-focused"],
+          "playlists": ["NeetCode 150", "NeetCode 250", "Advanced Algorithms"]
+        },
+        {
+          "id": "abdul-bari",
+          "name": "Abdul Bari",
+          "url": "https://www.youtube.com/@abdul_bari",
+          "subscribers": "1.5M+",
+          "tier": "S",
+          "description": "The gold standard for algorithm fundamentals. Legendary whiteboard-style teaching with dry run examples. Best for understanding the 'why' behind algorithms, not just the 'how'.",
+          "bestFor": ["Algorithm theory", "Fundamental understanding", "Academic rigor"],
+          "playlists": ["Algorithms", "Data Structures"]
+        },
+        {
+          "id": "striver-youtube",
+          "name": "take U forward (Striver)",
+          "url": "https://www.youtube.com/@takeUforward",
+          "subscribers": "900K+",
+          "tier": "S",
+          "description": "Complete DSA course from basics to advanced by ex-Google engineer. Accompanies the A2Z and SDE sheets. Very thorough with multiple approaches per problem. Great for all tech interviews.",
+          "bestFor": ["Complete curriculum", "Multiple approaches", "Thorough explanations"],
+          "playlists": ["A2Z DSA Course", "SDE Sheet", "Graph Series", "DP Series"]
+        },
+        {
+          "id": "william-fiset",
+          "name": "William Fiset",
+          "url": "https://www.youtube.com/@WilliamFiset-videos",
+          "subscribers": "200K+",
+          "tier": "A",
+          "description": "Best resource for graph algorithms and advanced data structures. Beautiful animations and clear visualizations. Former Google engineer. His graph playlist is unmatched.",
+          "bestFor": ["Graph algorithms", "Visual animations", "Advanced topics"],
+          "playlists": ["Graph Theory", "Data Structures"]
+        },
+        {
+          "id": "tushar-roy",
+          "name": "Tushar Roy - Coding Made Simple",
+          "url": "https://www.youtube.com/@tusaboroy",
+          "subscribers": "300K+",
+          "tier": "A",
+          "description": "Classic DP and algorithm explanations. Whiteboard style teaching. One of the original algorithm YouTube channels. His DP playlist is legendary.",
+          "bestFor": ["Dynamic Programming", "In-depth explanations", "Classic algorithms"],
+          "playlists": ["Dynamic Programming", "Tree Problems", "Graph Problems"]
+        },
+        {
+          "id": "back-to-back-swe",
+          "name": "Back To Back SWE",
+          "url": "https://www.youtube.com/@BackToBackSWE",
+          "subscribers": "400K+",
+          "tier": "A",
+          "description": "Interview-focused explanations with emphasis on how to communicate your solution. Teaches the soft skills of technical interviews alongside the hard skills.",
+          "bestFor": ["Interview communication", "Whiteboard practice", "FAANG prep"],
+          "playlists": ["Trees", "Dynamic Programming", "Sorting"]
+        },
+        {
+          "id": "algomaster-youtube",
+          "name": "AlgoMaster (Ashish)",
+          "url": "https://www.youtube.com/playlist?list=PLK63NuByH5o9odyBT7nfYkHZyvGQ5oVp2",
+          "subscribers": "100K+",
+          "tier": "A",
+          "description": "Pattern-focused DSA videos with clean animations. Companion to the AlgoMaster blog. Covers all major patterns with code examples in multiple languages.",
+          "bestFor": ["Pattern explanations", "Clean animations", "Modern approach"],
+          "playlists": ["DSA Patterns", "LeetCode Pattern Playlist"]
+        },
+        {
+          "id": "errichto",
+          "name": "Errichto",
+          "url": "https://www.youtube.com/@Errichto",
+          "subscribers": "150K+",
+          "tier": "A",
+          "description": "Competitive programming legend (top-rated on Codeforces). Advanced algorithms and contest-style problem solving. Great for those who want to go beyond interview-level.",
+          "bestFor": ["Competitive programming", "Advanced techniques", "Contest strategies"],
+          "playlists": ["Binary Search", "Dynamic Programming", "C++ STL"]
+        },
+        {
+          "id": "michael-sambol",
+          "name": "Michael Sambol",
+          "url": "https://www.youtube.com/@MichaelSambol",
+          "subscribers": "100K+",
+          "tier": "B",
+          "description": "Ultra-short algorithm review videos (2-5 minutes each). Perfect for quick review and spaced repetition. 48+ short videos covering all major topics.",
+          "bestFor": ["Quick review", "Spaced repetition", "Exam prep"],
+          "playlists": ["Algorithms in 3 minutes"]
+        },
+        {
+          "id": "cs-dojo",
+          "name": "CS Dojo",
+          "url": "https://www.youtube.com/@CSDojo",
+          "subscribers": "2M+",
+          "tier": "A",
+          "description": "Beginner-friendly algorithm and Python tutorials by YK Sugi (ex-Google intern). Extremely clear explanations of fundamentals. Great first introduction to DSA concepts.",
+          "bestFor": ["Beginners", "Python focus", "Clear explanations"],
+          "playlists": ["Data Structures and Algorithms", "Python Tutorials"]
+        },
+        {
+          "id": "mycodeschool",
+          "name": "mycodeschool",
+          "url": "https://www.youtube.com/@mycodeschool",
+          "subscribers": "800K+",
+          "tier": "A",
+          "description": "Classic DSA channel with whiteboard-style explanations of pointers, linked lists, trees, and sorting. Created by the late Harsha Suryanarayana. Timeless content still widely recommended.",
+          "bestFor": ["Fundamentals", "Pointers & linked lists", "Whiteboard style"],
+          "playlists": ["Data Structures", "Pointers", "Sorting"]
+        },
+        {
+          "id": "inside-code",
+          "name": "Inside Code",
+          "url": "https://www.youtube.com/@insidecode",
+          "subscribers": "200K+",
+          "tier": "B",
+          "description": "Modern algorithm animations with clean visuals. Short, focused videos covering individual algorithms and data structures. Great production quality.",
+          "bestFor": ["Algorithm animations", "Quick learning", "Visual explanations"],
+          "playlists": ["Algorithms", "Data Structures"]
+        },
+        {
+          "id": "pepcoding",
+          "name": "Pepcoding",
+          "url": "https://www.youtube.com/@Pepcoding",
+          "subscribers": "700K+",
+          "tier": "B",
+          "description": "Comprehensive Java-based DSA course with structured playlists. Strong focus on recursion, DP, and graph theory. Popular in Indian tech prep community with very thorough explanations.",
+          "bestFor": ["Java focus", "Recursion & DP", "Structured playlists"],
+          "playlists": ["Level 1", "Level 2", "Level 3"]
+        },
+        {
+          "id": "techdose",
+          "name": "TECH DOSE",
+          "url": "https://www.youtube.com/@TECHDOSE4u",
+          "subscribers": "250K+",
+          "tier": "B",
+          "description": "LeetCode problem solutions with clear C++ implementations. Covers daily challenges and interview problems. Good explanations of time/space complexity.",
+          "bestFor": ["C++ solutions", "Daily LeetCode", "Contest prep"],
+          "playlists": ["LeetCode Solutions", "Data Structures"]
+        }
+      ]
+    },
+    {
+      "id": "reading-resources",
+      "name": "📖 Articles, Handbooks & Interactive Tools",
+      "description": "Written guides, reference materials, visualization tools, and interactive learning platforms",
+      "resources": [
+        {
+          "id": "tech-interview-handbook",
+          "name": "Tech Interview Handbook",
+          "url": "https://www.techinterviewhandbook.org/",
+          "tier": "S",
+          "description": "Free curated interview preparation materials by Yangshun (ex-Meta Staff Engineer, Blind 75 author). Covers algorithms cheatsheets, behavioral interviews, resume writing, and salary negotiation. The most comprehensive free interview guide.",
+          "bestFor": ["Comprehensive guide", "Complexity cheatsheets", "Salary negotiation"]
+        },
+        {
+          "id": "hello-algo-book",
+          "name": "Hello Algo (Free Online Book)",
+          "url": "https://www.hello-algo.com/en/",
+          "tier": "S",
+          "description": "Beautiful free DSA textbook with 500+ animated illustrations, code in 14 languages, and community Q&A. Endorsed by professors from Tsinghua University and senior scientists from Amazon. 122K+ GitHub stars.",
+          "bestFor": ["Visual learning", "Multi-language code", "Beginner-friendly", "Animated diagrams"]
+        },
+        {
+          "id": "big-o-cheatsheet",
+          "name": "Big-O Cheat Sheet",
+          "url": "https://www.bigocheatsheet.com/",
+          "tier": "S",
+          "description": "The definitive complexity reference. Covers time and space complexity for all major data structures and sorting algorithms in one visual page. Bookmark this.",
+          "bestFor": ["Quick reference", "Complexity lookup", "Interview prep"]
+        },
+        {
+          "id": "visualgo",
+          "name": "VisuAlgo",
+          "url": "https://visualgo.net/",
+          "tier": "S",
+          "description": "Interactive algorithm visualizations for all major data structures and algorithms. Step through algorithms at your own pace. Created by Dr Steven Halim at NUS. The best visualization tool for DSA.",
+          "bestFor": ["Visual learning", "Algorithm animation", "Step-by-step understanding"]
+        },
+        {
+          "id": "gfg",
+          "name": "GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/",
+          "tier": "A",
+          "description": "Largest collection of DSA articles with implementations in 5+ languages. Covers everything from basics to advanced. Also has practice problems, company interview corners, and quizzes.",
+          "bestFor": ["Reference implementations", "Concept explanations", "Company interview data"]
+        },
+        {
+          "id": "roadmap-sh",
+          "name": "roadmap.sh - DSA Roadmap",
+          "url": "https://roadmap.sh/datastructures-and-algorithms",
+          "tier": "A",
+          "description": "Interactive visual roadmap for learning DSA. Track your progress through 107 topics. The 6th most starred project on all of GitHub (349K+ stars). Has AI tutor integration.",
+          "bestFor": ["Visual roadmap", "Progress tracking", "Structured learning path"]
+        },
+        {
+          "id": "algorithm-visualizer",
+          "name": "Algorithm Visualizer",
+          "url": "https://algorithm-visualizer.org/",
+          "tier": "A",
+          "description": "Interactive platform for visualizing algorithms from code. Write code and see it execute step-by-step. Open source with community contributions.",
+          "bestFor": ["Code visualization", "Step-by-step execution", "Interactive debugging"]
+        },
+        {
+          "id": "cp-algorithms",
+          "name": "CP-Algorithms (e-maxx)",
+          "url": "https://cp-algorithms.com/",
+          "tier": "A",
+          "description": "Comprehensive algorithms encyclopedia translated from the legendary Russian e-maxx. Covers advanced topics with mathematical proofs and implementations. The go-to for competitive programming.",
+          "bestFor": ["Advanced algorithms", "Competitive programming", "Mathematical proofs"]
+        },
+        {
+          "id": "algomaster-blog",
+          "name": "AlgoMaster Blog",
+          "url": "https://blog.algomaster.io/",
+          "tier": "A",
+          "description": "Newsletter-style blog by Ashish covering 15 LeetCode patterns, 20 DP patterns, and DSA mastery tips. Concise, practical articles focused on interview patterns.",
+          "bestFor": ["Pattern articles", "Interview tips", "Weekly learning"]
+        },
+        {
+          "id": "leetcode-discuss",
+          "name": "LeetCode Discuss (Study Guides)",
+          "url": "https://leetcode.com/discuss/study-guide/",
+          "tier": "A",
+          "description": "Community-created study guides on LeetCode Discuss. Includes legendary posts like 'DP Patterns', 'Binary Search Template', 'Sliding Window Template', and 'Two Pointers patterns'. Invaluable community knowledge.",
+          "bestFor": ["Community wisdom", "Pattern templates", "Advanced tips"]
+        },
+        {
+          "id": "neetcode-roadmap",
+          "name": "NeetCode Roadmap",
+          "url": "https://neetcode.io/roadmap",
+          "tier": "A",
+          "description": "Visual, interactive topic roadmap showing dependencies between DSA topics. See what to learn in what order. Free to use with progress tracking.",
+          "bestFor": ["Learning order", "Topic dependencies", "Visual progress"]
+        },
+        {
+          "id": "python-tutor",
+          "name": "Python Tutor (Visualize Code Execution)",
+          "url": "https://pythontutor.com/",
+          "tier": "A",
+          "description": "Visualize code execution step-by-step in Python, Java, C, C++, and JavaScript. See memory allocation, stack frames, and pointer references. The best tool for understanding recursion and data structures in memory.",
+          "bestFor": ["Code execution visualization", "Recursion understanding", "Memory model"]
+        },
+        {
+          "id": "usfca-visualizations",
+          "name": "Data Structure Visualizations (USFCA)",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html",
+          "tier": "A",
+          "description": "Interactive visualizations for all major data structures and algorithms by Prof. David Galles at USF. Covers BST, AVL, B-trees, heaps, graphs, sorting, and more. Academic quality.",
+          "bestFor": ["Data structure animations", "Academic quality", "Interactive exploration"]
+        },
+        {
+          "id": "interviewbit-guides",
+          "name": "InterviewBit Practice & Guides",
+          "url": "https://www.interviewbit.com/practice/",
+          "tier": "A",
+          "description": "Structured 8-level DSA programming course with 615 problems, articles, and guided learning path. Includes tutorials for each topic. Free with gamification and leaderboards.",
+          "bestFor": ["Structured path", "Guided learning", "Gamification"]
+        },
+        {
+          "id": "sorting-visualizer",
+          "name": "Sorting Algorithms Visualizer",
+          "url": "https://www.sortvisualizer.com/",
+          "tier": "B",
+          "description": "Beautiful side-by-side sorting algorithm comparisons with audio. Watch bubble sort, merge sort, quicksort, and more race against each other. Great for building intuition about sorting performance.",
+          "bestFor": ["Sorting comparison", "Audio-visual learning", "Performance intuition"]
+        }
+      ]
+    },
+    {
+      "id": "books",
+      "name": "📕 Books",
+      "description": "Essential books for deep understanding and interview mastery",
+      "resources": [
+        {
+          "id": "ctci",
+          "name": "Cracking the Coding Interview (CTCI)",
+          "url": "https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850",
+          "author": "Gayle Laakmann McDowell",
+          "tier": "S",
+          "description": "The bible of coding interviews. 189 problems with detailed solutions, plus chapters on behavioral interviews, big O, and specific company prep. Written by an ex-Google, ex-Microsoft, ex-Apple interviewer.",
+          "bestFor": ["Interview strategy", "189 practice problems", "Company insights"]
+        },
+        {
+          "id": "epi",
+          "name": "Elements of Programming Interviews",
+          "url": "https://elementsofprogramminginterviews.com/",
+          "author": "Aziz, Lee, Prakash",
+          "tier": "S",
+          "description": "300 problems with deep solutions. Available in Python, Java, and C++. More challenging than CTCI. The book for those aiming at Google/Meta-level interviews.",
+          "bestFor": ["Advanced problems", "Deep solutions", "FAANG targeting"]
+        },
+        {
+          "id": "algorithm-design-manual",
+          "name": "The Algorithm Design Manual",
+          "url": "https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/3030542556",
+          "author": "Steven Skiena",
+          "tier": "A",
+          "description": "Part textbook, part algorithm catalog. Great stories from industry and academia. The algorithm catalog is invaluable for knowing which algorithm to apply to which problem type.",
+          "bestFor": ["Algorithm intuition", "Problem classification", "Academic depth"]
+        },
+        {
+          "id": "clrs",
+          "name": "Introduction to Algorithms (CLRS)",
+          "url": "https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X",
+          "author": "Cormen, Leiserson, Rivest, Stein",
+          "tier": "A",
+          "description": "The definitive algorithms textbook used by universities worldwide. 4th edition (2022). Extremely thorough with mathematical rigor. Not necessary for interviews, but unmatched for deep understanding.",
+          "bestFor": ["Academic depth", "Mathematical proofs", "Complete reference"]
+        },
+        {
+          "id": "coding-interview-patterns",
+          "name": "Coding Interview Patterns",
+          "url": "https://www.amazon.com/dp/B0DJNZ9D37",
+          "author": "Alex Xu & Sahn Lam",
+          "tier": "A",
+          "description": "Pattern-based approach with 101 real coding interview problems. 1000+ diagrams. Intuitive explanations guiding you through each problem as if in a live interview. Recommended by the Coding Interview University repo.",
+          "bestFor": ["Pattern recognition", "Visual diagrams", "Interview simulation"]
+        },
+        {
+          "id": "grokking-algorithms",
+          "name": "Grokking Algorithms",
+          "url": "https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230",
+          "author": "Aditya Bhargava",
+          "tier": "B",
+          "description": "Illustrated guide to algorithms for beginners. Uses comics and visual explanations. Makes complex topics approachable. Great first algorithms book before diving deeper.",
+          "bestFor": ["Absolute beginners", "Visual explanations", "Fun learning"]
+        },
+        {
+          "id": "algorithms-sedgewick",
+          "name": "Algorithms (4th Edition)",
+          "url": "https://algs4.cs.princeton.edu/",
+          "author": "Robert Sedgewick & Kevin Wayne",
+          "tier": "A",
+          "description": "Companion to the Princeton Coursera course. Free booksite with Java implementations, visualizations, and exercises. Covers fundamental algorithms with elegant, readable code.",
+          "bestFor": ["Java implementations", "Free booksite", "Princeton course companion"]
+        },
+        {
+          "id": "cp-handbook",
+          "name": "Competitive Programmer's Handbook",
+          "url": "https://cses.fi/book/book.pdf",
+          "author": "Antti Laaksonen",
+          "tier": "A",
+          "description": "Free PDF covering algorithms and data structures used in competitive programming. 300 pages of concise, practical content. Goes beyond interview-level into advanced topics like segment trees and FFT.",
+          "bestFor": ["Competitive programming", "Free PDF", "Advanced algorithms"]
+        },
+        {
+          "id": "programming-pearls",
+          "name": "Programming Pearls",
+          "url": "https://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880",
+          "author": "Jon Bentley",
+          "tier": "B",
+          "description": "Classic book on algorithmic thinking and problem-solving. Teaches how to think about algorithm design with real-world examples. Short, elegant, and insightful.",
+          "bestFor": ["Algorithmic thinking", "Problem-solving mindset", "Classic wisdom"]
+        }
+      ]
+    },
+    {
+      "id": "courses",
+      "name": "🎓 Courses (Free & Paid)",
+      "description": "Structured courses for systematic learning with guided curriculum",
+      "resources": [
+        {
+          "id": "neetcode-courses",
+          "name": "NeetCode.io Courses",
+          "url": "https://neetcode.io/courses",
+          "price": "Free / Pro ($99 one-time)",
+          "tier": "S",
+          "description": "Structured courses: 'Algorithms & DS for Beginners' (25 hours) and 'Advanced Algorithms' (25 hours). Built-in code runner with Python. By the creator of NeetCode (ex-Google). Free tier includes NeetCode 150.",
+          "bestFor": ["Structured learning", "Beginner to advanced", "Built-in practice"]
+        },
+        {
+          "id": "grokking",
+          "name": "Grokking the Coding Interview",
+          "url": "https://www.designgurus.io/course/grokking-the-coding-interview",
+          "price": "~$79 one-time",
+          "tier": "S",
+          "description": "The gold standard for pattern-based interview prep. Covers 26 coding patterns with 100+ problems. Interactive coding in Java, Python, C++, and JavaScript. Created by Design Gurus.",
+          "bestFor": ["Pattern recognition", "Systematic learning", "Multi-language"]
+        },
+        {
+          "id": "algomonster",
+          "name": "AlgoMonster",
+          "url": "https://algo.monster/",
+          "price": "~$99 one-time",
+          "tier": "A",
+          "description": "Fastest path to mastering DSA. Data-driven approach analyzing thousands of interview questions. Built-in spaced repetition. By Google engineers. One-time payment, lifetime access.",
+          "bestFor": ["Fast learning", "Spaced repetition", "Data-driven patterns"]
+        },
+        {
+          "id": "coursera-algorithms",
+          "name": "Algorithms I & II (Princeton/Coursera)",
+          "url": "https://www.coursera.org/learn/algorithms-part1",
+          "price": "Free to audit",
+          "tier": "A",
+          "description": "Robert Sedgewick's legendary algorithms course from Princeton. Covers sorting, searching, graphs, and strings with Java. Free to audit. Considered one of the best CS courses ever made.",
+          "bestFor": ["Academic rigor", "Java implementations", "University-level"]
+        },
+        {
+          "id": "mit-6006",
+          "name": "MIT 6.006: Introduction to Algorithms",
+          "url": "https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
+          "price": "Free",
+          "tier": "A",
+          "description": "MIT's flagship algorithms course. 47 lectures covering all fundamental algorithms. Free on YouTube with course materials on MIT OCW. Taught by Erik Demaine and others.",
+          "bestFor": ["Academic depth", "Theoretical foundations", "Free MIT education"]
+        },
+        {
+          "id": "educative",
+          "name": "Educative.io",
+          "url": "https://www.educative.io/",
+          "price": "Subscription (~$18/month)",
+          "tier": "A",
+          "description": "Interactive text-based courses with in-browser coding. Multiple DSA and system design courses. No video - learn by reading and coding. Includes Grokking courses.",
+          "bestFor": ["Text-based learning", "Interactive coding", "Multiple courses"]
+        },
+        {
+          "id": "leetcode-premium",
+          "name": "LeetCode Premium",
+          "url": "https://leetcode.com/subscribe/",
+          "price": "~$35/month or $159/year",
+          "tier": "A",
+          "description": "Access to company-tagged problems with frequency data, official solutions, and mock interview features. See which problems Google, Meta, Amazon ask most frequently.",
+          "bestFor": ["Company-specific prep", "Frequency data", "Official solutions"]
+        },
+        {
+          "id": "udemy-ztm",
+          "name": "Master the Coding Interview (ZTM/Udemy)",
+          "url": "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
+          "price": "~$15 on sale",
+          "tier": "B",
+          "description": "Udemy bestseller with 4.6 stars, 21.5k ratings, 135k students. 19 hours covering data structures, algorithms, plus resume, behavioral, and negotiation. JavaScript-based.",
+          "bestFor": ["Budget learning", "All-in-one package", "JavaScript focus"]
+        },
+        {
+          "id": "algoexpert",
+          "name": "AlgoExpert",
+          "url": "https://www.algoexpert.io/",
+          "price": "~$99/year",
+          "tier": "A",
+          "description": "200 hand-picked problems with 100+ hours of video explanations. Solutions in 9 languages. Built-in coding workspace, mock interviews, and curated assessments. Created by Clément Mihailescu (ex-Google, ex-Meta). 200K+ users.",
+          "bestFor": ["Video explanations", "Multi-language", "All-in-one platform"]
+        },
+        {
+          "id": "stanford-algorithms",
+          "name": "Stanford Algorithms (Coursera)",
+          "url": "https://www.coursera.org/specializations/algorithms",
+          "price": "Free to audit",
+          "tier": "A",
+          "description": "Tim Roughgarden's 4-course algorithms specialization from Stanford. Covers divide & conquer, graph search, shortest paths, greedy, DP, and NP-completeness. Excellent theoretical foundation.",
+          "bestFor": ["Theoretical depth", "Stanford quality", "Complete specialization"]
+        },
+        {
+          "id": "cs-video-courses",
+          "name": "CS Video Courses (Developer-Y)",
+          "url": "https://github.com/Developer-Y/cs-video-courses",
+          "price": "Free",
+          "tier": "B",
+          "description": "Curated list of CS video courses from top universities worldwide. Covers algorithms, data structures, OS, networking, databases, and more. 69K+ GitHub stars. The meta-resource for finding free CS lectures.",
+          "bestFor": ["University lectures", "Free courses", "Academic depth"]
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "🛠️ Practice Platforms & Tools",
+      "description": "Platforms for coding practice, mock interviews, and assessment preparation",
+      "resources": [
+        {
+          "id": "leetcode",
+          "name": "LeetCode",
+          "url": "https://leetcode.com/",
+          "tier": "S",
+          "description": "The undisputed standard for coding interview practice. 3000+ problems. Contest system, discuss forums, company tags, study plans. If you use only one platform, use this one.",
+          "bestFor": ["Interview prep", "Company problems", "Community solutions", "Contests"]
+        },
+        {
+          "id": "hackerrank",
+          "name": "HackerRank",
+          "url": "https://www.hackerrank.com/",
+          "tier": "A",
+          "description": "Great for learning with structured tracks (30 Days of Code, Interview Preparation Kit). Also used by many companies for actual hiring assessments. Good certifications.",
+          "bestFor": ["Learning tracks", "Certifications", "Company assessments"]
+        },
+        {
+          "id": "codeforces",
+          "name": "Codeforces",
+          "url": "https://codeforces.com/",
+          "tier": "A",
+          "description": "The premier competitive programming platform. Regular contests with global ranking. Problems from Div.1 (hard) to Div.4 (beginner). Great for sharpening problem-solving speed.",
+          "bestFor": ["Competitive programming", "Speed practice", "Hard problems"]
+        },
+        {
+          "id": "codewars",
+          "name": "Codewars",
+          "url": "https://www.codewars.com/",
+          "tier": "B",
+          "description": "Gamified coding challenges with 'kata' ranking system (8kyu to 1kyu). Supports 55+ languages. Fun for daily practice and maintaining coding skills.",
+          "bestFor": ["Gamification", "Multiple languages", "Daily practice"]
+        },
+        {
+          "id": "interviewing-io",
+          "name": "interviewing.io",
+          "url": "https://interviewing.io/",
+          "tier": "A",
+          "description": "Anonymous mock interviews with senior engineers from FAANG companies. Real interview experience with real feedback. Also has recorded mock interviews you can watch for free.",
+          "bestFor": ["Mock interviews", "Real feedback", "FAANG experience"]
+        },
+        {
+          "id": "pramp",
+          "name": "Pramp",
+          "url": "https://www.pramp.com/",
+          "tier": "B",
+          "description": "Free peer-to-peer mock interviews. You interview each other - great for practicing both sides of the table. Structured format with provided questions.",
+          "bestFor": ["Free mock interviews", "Peer practice", "Both-sided experience"]
+        },
+        {
+          "id": "hello-interview",
+          "name": "Hello Interview",
+          "url": "https://www.hellointerview.com/",
+          "tier": "B",
+          "description": "Mock interviews with AI or FAANG staff engineers and managers. Practice system design and coding interviews with immediate feedback.",
+          "bestFor": ["AI mock interviews", "FAANG engineers", "System design practice"]
+        },
+        {
+          "id": "excalidraw",
+          "name": "Excalidraw",
+          "url": "https://excalidraw.com/",
+          "tier": "B",
+          "description": "Free virtual whiteboard for drawing algorithm diagrams. Perfect for system design practice and explaining algorithms visually. Hand-drawn feel, easy to use.",
+          "bestFor": ["Whiteboard practice", "System design diagrams", "Algorithm visualization"]
+        },
+        {
+          "id": "interviewbit",
+          "name": "InterviewBit",
+          "url": "https://www.interviewbit.com/",
+          "tier": "A",
+          "description": "Structured 8-level DSA course with 615 problems, gamification, leaderboards, and streaks. Covers time complexity through graphs. Free with optional Scaler Academy upgrade. Also conducts hiring challenges.",
+          "bestFor": ["Structured learning", "Gamification", "Hiring challenges"]
+        },
+        {
+          "id": "codechef",
+          "name": "CodeChef",
+          "url": "https://www.codechef.com/",
+          "tier": "A",
+          "description": "Popular competitive programming platform with monthly contests (Long, Cook-Off, Lunchtime). Great practice problems across all difficulty levels. Strong community especially in India.",
+          "bestFor": ["Competitive programming", "Monthly contests", "Rating system"]
+        },
+        {
+          "id": "atcoder",
+          "name": "AtCoder",
+          "url": "https://atcoder.jp/",
+          "tier": "A",
+          "description": "Japanese competitive programming platform with very well-designed problems. Weekly contests with strong editorial explanations. Beginner Contest (ABC) is great for interview-level problems.",
+          "bestFor": ["High-quality problems", "Weekly contests", "Beginner-friendly contests"]
+        },
+        {
+          "id": "codesignal",
+          "name": "CodeSignal",
+          "url": "https://codesignal.com/",
+          "tier": "B",
+          "description": "Used by many companies for actual coding assessments. Practice their assessment format to prepare for real screening rounds. Has arcade mode for fun daily practice.",
+          "bestFor": ["Assessment practice", "Company screening prep", "Daily challenges"]
+        },
+        {
+          "id": "project-euler",
+          "name": "Project Euler",
+          "url": "https://projecteuler.net/",
+          "tier": "B",
+          "description": "900+ mathematical/programming challenges. Not interview-specific, but excellent for developing mathematical thinking and number theory skills that help with hard interview problems.",
+          "bestFor": ["Math problems", "Number theory", "Advanced thinking"]
+        }
+      ]
+    },
+    {
+      "id": "cheatsheets",
+      "name": "📋 Cheatsheets & Quick References",
+      "description": "Quick-reference materials for review and last-minute preparation",
+      "resources": [
+        {
+          "id": "tih-cheatsheets",
+          "name": "Tech Interview Handbook - Algorithm Cheatsheets",
+          "url": "https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/",
+          "tier": "S",
+          "description": "Study guides for 19 DSA topics with time complexities, corner cases, useful techniques, and recommended practice questions. The most practical cheatsheet collection for interviews.",
+          "bestFor": ["Quick review", "Corner cases", "Technique lookup"]
+        },
+        {
+          "id": "algo-monster-patterns",
+          "name": "AlgoMonster Pattern Cheatsheet",
+          "url": "https://algo.monster/problems/stats",
+          "tier": "A",
+          "description": "Data-driven analysis of interview question patterns with frequency statistics. Shows which patterns appear most often based on thousands of real interviews.",
+          "bestFor": ["Pattern frequency", "Priority planning", "Time optimization"]
+        },
+        {
+          "id": "15-patterns",
+          "name": "15 LeetCode Patterns",
+          "url": "https://blog.algomaster.io/p/15-leetcode-patterns",
+          "tier": "A",
+          "description": "Concise guide to the 15 most important coding patterns. Each pattern with problem recognition signals, template code, and example problems. Great for pattern review.",
+          "bestFor": ["Pattern review", "Recognition signals", "Template code"]
+        },
+        {
+          "id": "20-dp-patterns",
+          "name": "20 Dynamic Programming Patterns",
+          "url": "https://blog.algomaster.io/p/20-patterns-to-master-dynamic-programming",
+          "tier": "A",
+          "description": "Comprehensive guide to 20 DP patterns including 0/1 Knapsack, LCS, LIS, Matrix Chain, and more. Each with template and example problems.",
+          "bestFor": ["DP mastery", "Pattern classification", "Template approach"]
+        },
+        {
+          "id": "data-structure-sketches",
+          "name": "Data Structure Sketches",
+          "url": "https://okso.app/showcase/data-structures",
+          "tier": "B",
+          "description": "Beautiful hand-drawn sketches of all major data structures. Great for visual review and understanding the conceptual structure of each data type.",
+          "bestFor": ["Visual review", "Conceptual understanding", "Quick refresher"]
+        },
+        {
+          "id": "grind-75-tool",
+          "name": "Grind 75 (Customizable Study Plan Generator)",
+          "url": "https://www.techinterviewhandbook.org/grind75/",
+          "tier": "S",
+          "description": "Free tool by Yangshun (Blind 75 author) that generates personalized LeetCode study plans. Set your available hours, weeks, and topics. Outputs an optimal weekly schedule with 75 problems. The modern replacement for Blind 75.",
+          "bestFor": ["Custom schedules", "Time-based planning", "Optimal ordering"]
+        },
+        {
+          "id": "14-patterns",
+          "name": "14 Coding Interview Patterns",
+          "url": "https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed",
+          "tier": "A",
+          "description": "The seminal article by Fahim ul Haq (Design Gurus founder) that popularized pattern-based interview prep. Covers sliding window, two pointers, fast/slow pointers, merge intervals, and more.",
+          "bestFor": ["Pattern overview", "Quick reference", "Interview strategy"]
+        },
+        {
+          "id": "dsa-roadmap-cheatsheet",
+          "name": "DSA Roadmap & Complexity Cheatsheet",
+          "url": "https://roadmap.sh/datastructures-and-algorithms",
+          "tier": "A",
+          "description": "Interactive visual roadmap covering 107 DSA topics with explanations for each. Track your progress, mark items complete, and see learning dependencies. 349K+ GitHub stars.",
+          "bestFor": ["Visual roadmap", "Progress tracking", "Topic overview"]
+        }
+      ]
+    }
+  ],
+  "studyPlans": [
+    {
+      "id": "2-week-emergency",
+      "name": "2-Week Emergency Sprint",
+      "description": "Interview in 2 weeks? Focus on highest-ROI patterns only",
+      "resources": ["blind-75", "neetcode-youtube", "tih-cheatsheets"],
+      "dailyHours": 4,
+      "totalProblems": "30-40",
+      "focus": "Two Pointers, Sliding Window, BFS/DFS, Binary Search, Hash Map. Skip hard problems. Focus on pattern recognition over problem count.",
+      "strategy": [
+        "Week 1: Arrays, Strings, Hash Maps, Two Pointers, Sliding Window (Easy+Medium only)",
+        "Week 2: Trees, Graphs (BFS/DFS), Binary Search, Stack/Queue, review weak areas"
+      ]
+    },
+    {
+      "id": "4-week-sprint",
+      "name": "4-Week Sprint",
+      "description": "Solid preparation covering all essential patterns",
+      "resources": ["blind-75", "neetcode-youtube", "tech-interview-handbook"],
+      "dailyHours": 3,
+      "totalProblems": "75",
+      "focus": "Complete Blind 75. Watch NeetCode video for each problem. Review complexity cheatsheets. Do 2-3 mock interviews.",
+      "strategy": [
+        "Week 1: Arrays, Two Pointers, Sliding Window, Stack (20 problems)",
+        "Week 2: Binary Search, Linked List, Trees (20 problems)",
+        "Week 3: Graphs, Heaps, Intervals, Greedy (20 problems)",
+        "Week 4: DP basics, Backtracking, review + mock interviews (15 problems)"
+      ]
+    },
+    {
+      "id": "8-week-comprehensive",
+      "name": "8-Week Comprehensive",
+      "description": "Thorough preparation with depth in all topics",
+      "resources": ["neetcode-150", "grind-75", "tech-interview-handbook", "grokking"],
+      "dailyHours": 2,
+      "totalProblems": "150",
+      "focus": "Master all major patterns with video explanations. Include system design basics for mid-level+. Regular mock interviews.",
+      "strategy": [
+        "Weeks 1-2: Arrays, Strings, Hash Maps, Two Pointers, Sliding Window",
+        "Weeks 3-4: Stacks, Queues, Linked Lists, Binary Search",
+        "Weeks 5-6: Trees, Graphs (BFS/DFS), Heaps, Backtracking",
+        "Weeks 7-8: DP, Greedy, Intervals, Tries, review + 4 mock interviews"
+      ]
+    },
+    {
+      "id": "16-week-mastery",
+      "name": "16-Week Mastery Path",
+      "description": "Deep preparation for top companies (Google, Meta, etc.)",
+      "resources": ["striver-a2z", "neetcode-250", "grokking", "epi", "system-design-primer"],
+      "dailyHours": 2,
+      "totalProblems": "300+",
+      "focus": "Complete coverage with advanced topics. System design preparation. Multiple approaches per problem. Regular mock interviews with feedback.",
+      "strategy": [
+        "Weeks 1-4: Foundations (Arrays, Strings, Recursion, Sorting, Searching)",
+        "Weeks 5-8: Core DS (Trees, Graphs, Heaps, Tries, Hash Maps)",
+        "Weeks 9-12: Advanced Patterns (DP, Backtracking, Greedy, Bit Manipulation)",
+        "Weeks 13-14: System Design basics + Hard problems",
+        "Weeks 15-16: Review, mock interviews (8+), company-specific practice"
+      ]
+    }
+  ]
+}
