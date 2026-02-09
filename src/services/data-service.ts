@@ -16,10 +16,10 @@ import type {
 } from '@/types';
 
 // Import JSON data files
-import topicsJson from '../../public/data/topics.json';
-import problemsJson from '../../public/data/problems.json';
-import conceptsJson from '../../public/data/concepts.json';
-import resourcesJson from '../../public/data/resources.json';
+import topicsJson from '../data/topics.json';
+import problemsJson from '../data/problems.json';
+import conceptsJson from '../data/concepts.json';
+import resourcesJson from '../data/resources.json';
 
 // Type cast imported data
 const topicsData = topicsJson as TopicsData;
