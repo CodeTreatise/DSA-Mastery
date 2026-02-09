@@ -3,6 +3,7 @@
 // ============================================
 
 import { Component } from '@components/base';
+import referencesJson from '../data/references.json';
 
 interface Resource {
   id: string;
@@ -71,10 +72,7 @@ export class ReferencesPage extends Component<ReferencesState> {
 
   private async loadData(): Promise<void> {
     try {
-      const basePath = import.meta.env.BASE_URL || '/';
-      const response = await fetch(`${basePath}data/references.json`);
-      if (!response.ok) throw new Error('Failed to load references');
-      const data = await response.json();
+      const data = referencesJson as unknown as ReferencesData;
       this.setState({ 
         data, 
         loading: false,

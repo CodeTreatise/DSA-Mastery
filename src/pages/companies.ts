@@ -4,6 +4,7 @@
 // ============================================
 
 import { Component } from '@components/base';
+import companyProblemsJson from '../data/company-problems.json';
 
 interface CompanyProblem {
   title: string;
@@ -82,11 +83,7 @@ export class CompaniesPage extends Component<CompaniesPageState> {
     if (this.state.dataLoaded) return;
     
     try {
-      // Use import.meta.env.BASE_URL for correct path with base config
-      const basePath = import.meta.env.BASE_URL || '/';
-      const response = await fetch(`${basePath}data/company-problems.json`);
-      if (!response.ok) throw new Error('Failed to load company data');
-      const data = await response.json();
+      const data = companyProblemsJson as unknown as { companies: CompanyData[]; categories?: Categories };
       this.setState({ 
         companies: data.companies, 
         categories: data.categories || null,

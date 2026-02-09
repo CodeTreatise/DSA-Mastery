@@ -3,6 +3,7 @@
 // ============================================
 
 import { Component } from '@components/base';
+import playbookJson from '../data/playbook.json';
 
 // --- Interfaces ---
 
@@ -142,10 +143,7 @@ export class PlaybookPage extends Component<PlaybookState> {
 
   private async loadData(): Promise<void> {
     try {
-      const basePath = import.meta.env.BASE_URL || '/';
-      const response = await fetch(`${basePath}data/playbook.json`);
-      if (!response.ok) throw new Error('Failed to load playbook data');
-      const data: PlaybookData = await response.json();
+      const data = playbookJson as unknown as PlaybookData;
       this.setState({ data, loading: false });
     } catch (error) {
       this.setState({

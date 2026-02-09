@@ -361,15 +361,14 @@ interface CompanyProblemData {
   }>;
 }
 
+import companyProblemsJsonDash from '../data/company-problems.json';
+
 let companyDataCache: CompanyProblemData | null = null;
 
 export async function loadCompanyData(): Promise<CompanyProblemData | null> {
   if (companyDataCache) return companyDataCache;
   try {
-    const basePath = import.meta.env.BASE_URL || '/';
-    const res = await fetch(`${basePath}data/company-problems.json`);
-    if (!res.ok) return null;
-    companyDataCache = await res.json();
+    companyDataCache = companyProblemsJsonDash as unknown as CompanyProblemData;
     return companyDataCache;
   } catch {
     return null;
