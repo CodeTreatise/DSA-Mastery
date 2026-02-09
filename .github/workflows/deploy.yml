@@ -37,8 +37,8 @@ jobs:
       - name: Check TypeScript
         run: npx tsc --noEmit
       
-      - name: Build content
-        run: npm run build
+      - name: Build for production
+        run: npx vite build
       
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
