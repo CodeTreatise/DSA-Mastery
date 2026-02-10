@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-02-09T05:08:58.445Z",
+  "generatedAt": "2026-02-10T08:35:41.209Z",
   "topics": {
     "prerequisites": {
       "id": "prerequisites",
@@ -85,11 +85,133 @@
               "estimatedReadTime": 11
             }
           ]
+        },
+        {
+          "type": "section",
+          "name": "02-Programming-Fundamentals",
+          "title": "Programming Fundamentals",
+          "path": "02-Programming-Fundamentals",
+          "children": [
+            {
+              "type": "chapter",
+              "name": "2.1-Reference-Semantics-Mutability.md",
+              "title": "2.1 Reference Semantics & Mutability",
+              "description": "> Why your backtracking solution returns empty lists, your string concatenation TLEs, and your \"copy\" modifies the original. These bugs cost more i...",
+              "path": "02-Programming-Fundamentals/2.1-Reference-Semantics-Mutability.md",
+              "size": 10988,
+              "estimatedReadTime": 9
+            },
+            {
+              "type": "chapter",
+              "name": "2.2-OOP-Basics-For-DSA.md",
+              "title": "2.2 OOP Basics for DSA",
+              "description": "> You don't need to master OOP to solve LeetCode — but you DO need to know enough to define a ListNode, build a TreeNode, and write a class-based s...",
+              "path": "02-Programming-Fundamentals/2.2-OOP-Basics-For-DSA.md",
+              "size": 11204,
+              "estimatedReadTime": 8
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "03-Language-Essentials",
+          "title": "Language Essentials",
+          "path": "03-Language-Essentials",
+          "children": [
+            {
+              "type": "chapter",
+              "name": "3.1-Python-DSA-Toolkit.md",
+              "title": "3.1 Python DSA Toolkit",
+              "description": "> The modules and techniques that separate \"I know Python\" from \"I can solve LeetCode in Python.\"",
+              "path": "03-Language-Essentials/3.1-Python-DSA-Toolkit.md",
+              "size": 18990,
+              "estimatedReadTime": 16
+            },
+            {
+              "type": "chapter",
+              "name": "3.2-JavaScript-DSA-Toolkit.md",
+              "title": "3.2 JavaScript DSA Toolkit",
+              "description": "> JavaScript's built-in data structures and idioms that every competitive solver must know — and the traps that catch even experienced developers.",
+              "path": "03-Language-Essentials/3.2-JavaScript-DSA-Toolkit.md",
+              "size": 15999,
+              "estimatedReadTime": 12
+            },
+            {
+              "type": "chapter",
+              "name": "3.3-Sorting-Pitfalls-Both-Languages.md",
+              "title": "3.3 Sorting Pitfalls in Both Languages",
+              "description": "> The silent bugs that cause wrong answers on LeetCode — even when your algorithm is correct.",
+              "path": "03-Language-Essentials/3.3-Sorting-Pitfalls-Both-Languages.md",
+              "size": 9071,
+              "estimatedReadTime": 8
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "04-Math-Foundations",
+          "title": "Math Foundations",
+          "path": "04-Math-Foundations",
+          "children": [
+            {
+              "type": "chapter",
+              "name": "4.1-Powers-Of-2-And-Logarithms.md",
+              "title": "4.1 Powers of 2 & Logarithms",
+              "description": "> If you can't instantly recognize that 2¹⁰ = 1,024 ≈ 1K and 2²⁰ ≈ 1M, you'll misjudge complexity in every interview.",
+              "path": "04-Math-Foundations/4.1-Powers-Of-2-And-Logarithms.md",
+              "size": 6537,
+              "estimatedReadTime": 6
+            },
+            {
+              "type": "chapter",
+              "name": "4.2-Series-And-Summations.md",
+              "title": "4.2 Series & Summations",
+              "description": "> The math behind \"why is this O(n²)?\" and \"why does that simplify to O(n)?\" — explained through code, not proofs.",
+              "path": "04-Math-Foundations/4.2-Series-And-Summations.md",
+              "size": 6878,
+              "estimatedReadTime": 7
+            },
+            {
+              "type": "chapter",
+              "name": "4.3-Number-Theory-Essentials.md",
+              "title": "4.3 Number Theory Essentials",
+              "description": "> The math that powers GCD problems, modular arithmetic, prime sieves, and counting problems on LeetCode — just enough to solve the problems, no more.",
+              "path": "04-Math-Foundations/4.3-Number-Theory-Essentials.md",
+              "size": 8427,
+              "estimatedReadTime": 8
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "05-Problem-Solving",
+          "title": "Problem Solving",
+          "path": "05-Problem-Solving",
+          "children": [
+            {
+              "type": "chapter",
+              "name": "5.1-UMPIRE-Method.md",
+              "title": "5.1 The UMPIRE Method",
+              "description": "> A structured 6-step framework for solving ANY coding interview problem — developed by CodePath.org and battle-tested across thousands of intervie...",
+              "path": "05-Problem-Solving/5.1-UMPIRE-Method.md",
+              "size": 9227,
+              "estimatedReadTime": 8
+            },
+            {
+              "type": "chapter",
+              "name": "5.2-Complexity-Constraints-Guide.md",
+              "title": "5.2 Complexity Constraints Guide",
+              "description": "> How to read LeetCode's constraints and immediately know which algorithm family to use — before you even think about the problem.",
+              "path": "05-Problem-Solving/5.2-Complexity-Constraints-Guide.md",
+              "size": 6302,
+              "estimatedReadTime": 6
+            }
+          ]
         }
       ],
       "stats": {
-        "sections": 1,
-        "chapters": 8
+        "sections": 5,
+        "chapters": 18
       }
     },
     "arrays-strings": {
@@ -5459,8 +5581,8 @@
   },
   "stats": {
     "totalTopics": 17,
-    "totalSections": 152,
-    "totalChapters": 452,
+    "totalSections": 156,
+    "totalChapters": 462,
     "totalSize": 0
   }
 }
